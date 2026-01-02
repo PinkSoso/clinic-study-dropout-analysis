@@ -1,0 +1,1001 @@
+Participant_ID,Age,Gender,Ethnicity,Health_Condition,Comorbidities,Previous_Adherence_Score,Trial_Phase,Dropout_Flag,Dropout_Reason
+P0001,58,Male,White,None,Arthritis,0.85,Phase I,No,None
+P0002,32,Male,White,None,None,0.72,Phase I,No,None
+P0003,55,Female,White,Diabetes,Obesity,0.7,Phase I,Yes,Lack of Improvement
+P0004,50,Male,White,Asthma,Depression,0.7,Phase III,No,None
+P0005,59,Female,Black,Heart Disease,Depression,1,Phase II,Yes,Medical Advice
+P0006,35,Male,Black,None,Kidney Disease,0.9,Phase II,No,None
+P0007,35,Male,Black,Cancer,Obesity,0.66,Phase I,Yes,Lost Interest
+P0008,24,Female,Asian,Asthma,Arthritis,0.86,Phase I,Yes,None
+P0009,47,Male,White,Heart Disease,Obesity,0.8,Phase III,No,None
+P0010,36,Female,Black,Cancer,None,0.37,Phase I,No,None
+P0011,63,Male,White,None,Depression,0.55,Phase II,No,None
+P0012,23,Male,White,Heart Disease,Arthritis,0.81,Phase II,No,None
+P0013,58,Female,Black,Cancer,Arthritis,1,Phase I,Yes,None
+P0014,35,Male,White,Asthma,Depression,0.7,Phase III,No,None
+P0015,64,Male,Black,Heart Disease,Kidney Disease,0.64,Phase II,No,None
+P0016,77,Female,Black,Hypertension,Arthritis,0.77,Phase I,Yes,Lack of Improvement
+P0017,70,Male,Asian,Heart Disease,Arthritis,0.63,Phase I,No,None
+P0018,31,Male,Asian,Hypertension,Kidney Disease,0.69,Phase II,No,None
+P0019,74,Male,Hispanic,Hypertension,Arthritis,0.75,Phase I,Yes,Lack of Improvement
+P0020,65,Female,Black,Cancer,None,0.54,Phase II,No,None
+P0021,75,Male,Hispanic,Cancer,Depression,0.91,Phase I,No,None
+P0022,50,Female,White,Diabetes,Obesity,0.51,Phase I,No,None
+P0023,58,Male,Hispanic,Asthma,Obesity,0.48,Phase II,No,None
+P0024,42,Male,Hispanic,Asthma,Arthritis,0.79,Phase III,No,None
+P0025,73,Male,White,None,None,0.9,Phase II,Yes,None
+P0026,39,Male,Asian,Heart Disease,Depression,0.78,Phase II,Yes,Side Effects
+P0027,79,Male,Asian,Asthma,Depression,0.73,Phase III,No,None
+P0028,76,Male,Asian,None,None,0.69,Phase III,No,None
+P0029,30,Male,Asian,Hypertension,None,0.66,Phase III,No,None
+P0030,76,Male,White,Cancer,Kidney Disease,0.96,Phase I,No,None
+P0031,25,Female,Asian,Hypertension,Obesity,0.81,Phase I,Yes,Medical Advice
+P0032,78,Male,White,None,Kidney Disease,0.67,Phase I,No,None
+P0033,80,Male,Black,Hypertension,Kidney Disease,0.61,Phase III,Yes,Lack of Improvement
+P0034,34,Female,Black,Heart Disease,Depression,0.87,Phase III,No,None
+P0035,66,Male,Black,None,Arthritis,0.96,Phase II,No,None
+P0036,60,Male,Asian,Heart Disease,None,0.94,Phase II,Yes,Side Effects
+P0037,33,Male,White,Cancer,Obesity,0.58,Phase III,No,None
+P0038,53,Male,White,Hypertension,Obesity,0.69,Phase I,No,None
+P0039,63,Male,White,Hypertension,Obesity,0.65,Phase I,No,None
+P0040,73,Female,White,Asthma,Depression,0.71,Phase II,No,None
+P0041,60,Female,Black,Asthma,Depression,0.91,Phase III,No,None
+P0042,77,Female,Black,Heart Disease,Depression,1,Phase II,No,None
+P0043,69,Female,Black,Diabetes,Obesity,0.82,Phase III,No,None
+P0044,45,Female,Hispanic,Heart Disease,Kidney Disease,0.62,Phase III,No,None
+P0045,21,Male,White,Diabetes,Kidney Disease,0.74,Phase III,No,None
+P0046,39,Male,Black,Hypertension,Depression,1,Phase III,No,None
+P0047,46,Male,Hispanic,Hypertension,Arthritis,0.77,Phase II,No,None
+P0048,33,Male,Hispanic,Asthma,Obesity,0.69,Phase I,No,None
+P0049,59,Male,White,Diabetes,Depression,0.71,Phase I,No,None
+P0050,44,Female,Hispanic,Hypertension,Kidney Disease,0.82,Phase I,No,None
+P0051,28,Female,White,Heart Disease,Arthritis,0.59,Phase II,No,None
+P0052,36,Female,White,None,Kidney Disease,0.65,Phase I,No,None
+P0053,30,Female,Black,Diabetes,None,0.93,Phase III,No,None
+P0054,52,Male,Asian,Diabetes,Obesity,0.82,Phase III,Yes,Lost Interest
+P0055,50,Male,Black,Diabetes,None,0.77,Phase I,No,None
+P0056,72,Male,White,Asthma,Obesity,0.94,Phase III,No,None
+P0057,73,Male,Hispanic,Diabetes,None,0.61,Phase I,Yes,Medical Advice
+P0058,56,Male,White,Diabetes,Kidney Disease,0.68,Phase III,No,None
+P0059,55,Female,Black,Cancer,Arthritis,0.81,Phase I,Yes,None
+P0060,63,Female,Black,Cancer,Kidney Disease,0.8,Phase I,No,None
+P0061,60,Male,Asian,Heart Disease,Arthritis,0.47,Phase I,Yes,Side Effects
+P0062,47,Female,Black,Diabetes,Obesity,0.67,Phase III,No,None
+P0063,31,Male,Asian,Hypertension,Arthritis,0.72,Phase I,No,None
+P0064,74,Male,Asian,Cancer,Depression,0.83,Phase II,No,None
+P0065,71,Male,Asian,Asthma,None,0.8,Phase I,No,None
+P0066,60,Male,Asian,None,Obesity,0.74,Phase I,No,None
+P0067,34,Male,White,None,None,0.37,Phase I,No,None
+P0068,35,Female,White,Hypertension,Arthritis,0.74,Phase I,Yes,None
+P0069,58,Female,White,Heart Disease,Arthritis,0.76,Phase I,Yes,Side Effects
+P0070,58,Female,Asian,Diabetes,Obesity,1,Phase II,No,None
+P0071,67,Male,Asian,Hypertension,Kidney Disease,0.71,Phase III,Yes,None
+P0072,45,Male,White,Diabetes,Obesity,0.81,Phase III,No,None
+P0073,75,Male,White,Diabetes,Arthritis,0.98,Phase III,Yes,Medical Advice
+P0074,27,Female,Black,Diabetes,Arthritis,0.9,Phase II,No,None
+P0075,75,Male,Asian,Hypertension,Depression,1,Phase III,No,None
+P0076,24,Female,White,Heart Disease,None,0.47,Phase III,No,None
+P0077,27,Male,Black,Hypertension,Kidney Disease,0.55,Phase I,Yes,Lack of Improvement
+P0078,65,Female,Hispanic,None,Depression,0.64,Phase II,No,None
+P0079,28,Male,White,Heart Disease,Obesity,0.44,Phase II,No,None
+P0080,32,Male,Hispanic,Cancer,Arthritis,0.76,Phase I,Yes,Lack of Improvement
+P0081,19,Male,Black,Heart Disease,Arthritis,0.57,Phase II,No,None
+P0082,73,Male,Asian,Cancer,None,1,Phase II,Yes,None
+P0083,80,Male,Asian,Diabetes,Obesity,0.59,Phase II,No,None
+P0084,29,Male,Asian,Diabetes,Obesity,0.69,Phase III,No,None
+P0085,45,Female,Asian,Heart Disease,None,0.91,Phase III,No,None
+P0086,25,Female,White,Hypertension,Arthritis,0.5,Phase I,No,None
+P0087,63,Female,White,Asthma,None,0.43,Phase III,Yes,None
+P0088,78,Male,Black,Cancer,Kidney Disease,0.79,Phase I,No,None
+P0089,78,Male,Asian,Asthma,Arthritis,0.8,Phase III,No,None
+P0090,72,Male,Asian,Asthma,Arthritis,0.91,Phase III,No,None
+P0091,44,Female,Hispanic,None,Arthritis,0.85,Phase III,No,None
+P0092,26,Male,Hispanic,None,Kidney Disease,0.81,Phase III,No,None
+P0093,65,Male,White,Asthma,Arthritis,0.61,Phase II,Yes,Medical Advice
+P0094,71,Male,Asian,Cancer,Depression,0.8,Phase II,No,None
+P0095,68,Female,Black,None,Arthritis,0.81,Phase II,Yes,Lost Interest
+P0096,46,Male,Black,Asthma,Kidney Disease,0.61,Phase III,Yes,Lack of Improvement
+P0097,60,Male,Asian,Asthma,None,1,Phase II,No,None
+P0098,23,Male,Asian,Hypertension,Depression,0.84,Phase I,Yes,Side Effects
+P0099,20,Male,Hispanic,Asthma,Obesity,0.56,Phase II,No,None
+P0100,44,Female,Black,Hypertension,Kidney Disease,0.91,Phase II,No,None
+P0101,43,Male,Black,None,Obesity,0.94,Phase I,No,None
+P0102,67,Female,Black,Hypertension,None,0.83,Phase II,No,None
+P0103,21,Male,Black,Diabetes,Kidney Disease,0.7,Phase I,No,None
+P0104,69,Female,White,Asthma,None,0.6,Phase II,Yes,Lost Interest
+P0105,57,Female,Black,Heart Disease,None,0.73,Phase II,No,None
+P0106,75,Male,Hispanic,Heart Disease,Arthritis,0.82,Phase I,No,None
+P0107,71,Male,Asian,Asthma,Kidney Disease,0.75,Phase III,No,None
+P0108,33,Female,Hispanic,Diabetes,Arthritis,1,Phase I,No,None
+P0109,35,Female,Asian,Asthma,Obesity,0.88,Phase I,No,None
+P0110,27,Male,Hispanic,None,Depression,0.58,Phase III,Yes,Lack of Improvement
+P0111,22,Female,Hispanic,Cancer,None,0.54,Phase II,No,None
+P0112,44,Male,Black,Heart Disease,Kidney Disease,0.85,Phase III,No,None
+P0113,78,Male,White,Asthma,Kidney Disease,0.71,Phase II,Yes,Side Effects
+P0114,78,Female,Asian,Heart Disease,Kidney Disease,0.89,Phase III,No,None
+P0115,65,Female,Black,Asthma,Depression,0.84,Phase II,No,None
+P0116,32,Female,Hispanic,Heart Disease,Obesity,0.74,Phase II,No,None
+P0117,39,Male,Hispanic,None,Depression,0.58,Phase II,No,None
+P0118,76,Male,White,Asthma,Obesity,0.45,Phase II,No,None
+P0119,55,Male,White,Diabetes,Kidney Disease,0.79,Phase I,No,None
+P0120,73,Female,Black,Diabetes,Arthritis,0.5,Phase II,No,None
+P0121,38,Male,Hispanic,Cancer,Arthritis,0.57,Phase II,No,None
+P0122,35,Female,Asian,Diabetes,Kidney Disease,0.78,Phase I,No,None
+P0123,65,Male,White,Cancer,Depression,0.76,Phase III,No,None
+P0124,22,Male,White,Diabetes,Depression,0.52,Phase I,No,None
+P0125,71,Male,White,Hypertension,Depression,0.97,Phase I,No,None
+P0126,48,Male,White,Asthma,Depression,0.96,Phase II,No,None
+P0127,62,Female,Asian,Hypertension,None,0.85,Phase III,No,None
+P0128,79,Male,White,Hypertension,Arthritis,0.85,Phase I,No,None
+P0129,55,Male,Asian,Asthma,Kidney Disease,0.85,Phase II,No,None
+P0130,78,Male,Black,Diabetes,None,1,Phase III,No,None
+P0131,71,Male,Black,Diabetes,Arthritis,0.94,Phase III,No,None
+P0132,56,Male,White,Diabetes,Arthritis,0.88,Phase III,No,None
+P0133,45,Male,Asian,Diabetes,None,0.6,Phase III,No,None
+P0134,39,Male,Hispanic,Heart Disease,Obesity,0.7,Phase II,Yes,Logistical Issues
+P0135,58,Female,Black,Heart Disease,Depression,1,Phase III,No,None
+P0136,51,Male,Asian,Asthma,None,0.38,Phase II,No,None
+P0137,47,Female,White,Cancer,Arthritis,0.66,Phase I,Yes,Side Effects
+P0138,35,Female,Black,Heart Disease,None,0.97,Phase III,No,None
+P0139,60,Female,Asian,Diabetes,Kidney Disease,0.61,Phase II,No,None
+P0140,29,Female,Black,Cancer,Arthritis,0.89,Phase II,Yes,Logistical Issues
+P0141,74,Male,Asian,Asthma,Obesity,0.76,Phase III,No,None
+P0142,78,Male,White,Hypertension,Kidney Disease,0.62,Phase II,No,None
+P0143,53,Male,Hispanic,None,Kidney Disease,0.34,Phase II,No,None
+P0144,68,Male,White,Cancer,Depression,0.79,Phase II,No,None
+P0145,62,Male,Asian,None,None,0.59,Phase II,Yes,Lost Interest
+P0146,53,Male,Asian,Heart Disease,None,0.73,Phase II,No,None
+P0147,40,Male,Hispanic,Cancer,Arthritis,0.85,Phase II,No,None
+P0148,32,Male,Black,Cancer,Obesity,0.92,Phase III,Yes,Medical Advice
+P0149,78,Male,Black,Hypertension,Depression,0.66,Phase III,No,None
+P0150,48,Female,White,Asthma,None,0.62,Phase II,No,None
+P0151,80,Male,Black,Cancer,Depression,0.5,Phase II,No,None
+P0152,29,Female,White,None,None,0.93,Phase I,No,None
+P0153,35,Male,White,Asthma,Arthritis,1,Phase III,No,None
+P0154,78,Male,Hispanic,Diabetes,Obesity,0.96,Phase III,Yes,Logistical Issues
+P0155,48,Female,Hispanic,Cancer,Depression,1,Phase I,Yes,Logistical Issues
+P0156,78,Female,White,Diabetes,Kidney Disease,0.61,Phase II,Yes,Side Effects
+P0157,54,Male,White,Hypertension,Depression,0.84,Phase III,No,None
+P0158,78,Female,White,Hypertension,Obesity,0.9,Phase III,Yes,Lost Interest
+P0159,56,Female,Black,Hypertension,None,0.1,Phase II,Yes,Lost Interest
+P0160,76,Female,Asian,Asthma,Kidney Disease,0.55,Phase II,No,None
+P0161,54,Male,White,Asthma,Obesity,1,Phase I,No,None
+P0162,58,Male,Asian,None,Obesity,0.46,Phase I,Yes,Lack of Improvement
+P0163,29,Male,White,Hypertension,Obesity,1,Phase II,No,None
+P0164,46,Female,Black,Heart Disease,Arthritis,0.46,Phase I,No,None
+P0165,32,Female,Asian,None,Kidney Disease,0.55,Phase I,Yes,None
+P0166,32,Female,White,None,Depression,0.84,Phase II,No,None
+P0167,25,Male,Black,None,Depression,0.76,Phase II,No,None
+P0168,70,Male,White,Diabetes,Depression,0.67,Phase II,No,None
+P0169,56,Female,Black,Cancer,Kidney Disease,1,Phase I,No,None
+P0170,47,Male,Asian,None,Kidney Disease,0.5,Phase II,No,None
+P0171,50,Male,Hispanic,Heart Disease,Obesity,0.72,Phase III,No,None
+P0172,20,Female,Asian,Asthma,Arthritis,0.87,Phase I,No,None
+P0173,23,Male,White,Asthma,Obesity,0.81,Phase III,Yes,Logistical Issues
+P0174,54,Male,Black,Heart Disease,None,0.63,Phase III,No,None
+P0175,46,Female,Black,Asthma,Kidney Disease,0.63,Phase III,Yes,Lost Interest
+P0176,80,Male,Hispanic,Cancer,Kidney Disease,0.92,Phase II,No,None
+P0177,38,Male,White,Hypertension,Arthritis,0.93,Phase II,No,None
+P0178,62,Female,Asian,None,Kidney Disease,0.81,Phase III,No,None
+P0179,20,Female,White,Cancer,Arthritis,0.58,Phase II,No,None
+P0180,25,Female,White,Diabetes,None,0.64,Phase II,No,None
+P0181,44,Male,Black,Asthma,Arthritis,0.75,Phase III,No,None
+P0182,66,Female,Hispanic,Diabetes,Depression,0.77,Phase II,No,None
+P0183,53,Male,Asian,Heart Disease,Kidney Disease,0.86,Phase I,No,None
+P0184,19,Female,Black,Hypertension,Depression,0.71,Phase II,No,None
+P0185,53,Male,White,Heart Disease,Obesity,0.92,Phase I,Yes,Side Effects
+P0186,47,Male,Black,Heart Disease,Arthritis,0.91,Phase III,No,None
+P0187,63,Female,Hispanic,Heart Disease,Kidney Disease,1,Phase I,No,None
+P0188,47,Male,Black,Heart Disease,Depression,0.75,Phase III,No,None
+P0189,50,Male,Black,Diabetes,Arthritis,0.81,Phase II,No,None
+P0190,39,Male,Asian,Diabetes,Arthritis,0.72,Phase III,No,None
+P0191,37,Female,Black,None,Kidney Disease,0.59,Phase I,No,None
+P0192,46,Male,Hispanic,Cancer,Arthritis,1,Phase III,No,None
+P0193,66,Male,Hispanic,Heart Disease,Arthritis,0.98,Phase I,No,None
+P0194,80,Male,Black,Asthma,Kidney Disease,0.91,Phase I,No,None
+P0195,72,Female,White,Cancer,Kidney Disease,0.75,Phase III,Yes,Lost Interest
+P0196,42,Male,Black,Heart Disease,Obesity,0.57,Phase I,No,None
+P0197,50,Male,Asian,Diabetes,Kidney Disease,0.95,Phase I,No,None
+P0198,51,Female,White,None,Depression,0.72,Phase II,Yes,None
+P0199,80,Male,White,Heart Disease,Arthritis,0.83,Phase II,No,None
+P0200,57,Male,Hispanic,None,Obesity,0.64,Phase II,Yes,None
+P0201,72,Male,Hispanic,Cancer,Kidney Disease,0.8,Phase III,Yes,Side Effects
+P0202,57,Male,Black,None,Arthritis,0.65,Phase I,No,None
+P0203,65,Male,Hispanic,Diabetes,Obesity,0.66,Phase II,Yes,Lack of Improvement
+P0204,62,Female,White,Diabetes,Arthritis,0.8,Phase I,No,None
+P0205,36,Female,Asian,Heart Disease,Depression,0.46,Phase I,No,None
+P0206,51,Female,White,None,Depression,0.47,Phase I,No,None
+P0207,29,Male,White,Heart Disease,None,0.61,Phase III,No,None
+P0208,33,Female,White,Hypertension,Depression,0.71,Phase II,No,None
+P0209,58,Female,Hispanic,Cancer,Obesity,0.92,Phase II,Yes,Logistical Issues
+P0210,61,Male,Black,Diabetes,Kidney Disease,0.72,Phase II,No,None
+P0211,55,Female,Hispanic,None,Arthritis,0.75,Phase II,Yes,Logistical Issues
+P0212,30,Female,Hispanic,Diabetes,Depression,0.69,Phase II,Yes,Medical Advice
+P0213,40,Male,Asian,None,Arthritis,0.81,Phase I,No,None
+P0214,80,Male,Hispanic,Cancer,Obesity,0.58,Phase III,No,None
+P0215,73,Male,White,Asthma,Kidney Disease,0.73,Phase II,No,None
+P0216,67,Male,White,Cancer,Depression,0.83,Phase III,No,None
+P0217,30,Male,Asian,None,Depression,0.79,Phase III,Yes,Side Effects
+P0218,75,Male,White,Cancer,Kidney Disease,0.75,Phase I,No,None
+P0219,55,Female,Black,Diabetes,Arthritis,0.75,Phase II,No,None
+P0220,65,Female,Black,Hypertension,Depression,0.85,Phase III,No,None
+P0221,74,Female,White,Asthma,Arthritis,1,Phase I,No,None
+P0222,34,Female,Asian,None,Arthritis,0.6,Phase I,No,None
+P0223,47,Male,Black,Hypertension,Kidney Disease,1,Phase III,No,None
+P0224,41,Male,Hispanic,Diabetes,Arthritis,0.59,Phase III,Yes,Side Effects
+P0225,47,Female,Asian,Asthma,Kidney Disease,0.33,Phase III,No,None
+P0226,78,Female,White,None,Depression,0.64,Phase II,Yes,Side Effects
+P0227,57,Male,Asian,Asthma,Depression,0.82,Phase III,No,None
+P0228,22,Male,Hispanic,None,Arthritis,1,Phase III,No,None
+P0229,44,Male,Black,Diabetes,Obesity,0.57,Phase II,No,None
+P0230,49,Male,White,Hypertension,None,0.85,Phase I,No,None
+P0231,42,Female,Asian,None,None,0.49,Phase II,No,None
+P0232,55,Male,Black,Heart Disease,Obesity,1,Phase II,No,None
+P0233,57,Female,Asian,Diabetes,Arthritis,0.99,Phase I,No,None
+P0234,46,Female,Black,Cancer,Obesity,0.66,Phase III,Yes,Logistical Issues
+P0235,52,Male,Asian,Diabetes,Kidney Disease,0.41,Phase II,No,None
+P0236,30,Male,Hispanic,Diabetes,Depression,1,Phase III,No,None
+P0237,58,Male,White,Diabetes,Arthritis,0.73,Phase I,No,None
+P0238,26,Male,Black,Diabetes,None,1,Phase I,No,None
+P0239,55,Male,Black,Cancer,Depression,0.75,Phase III,No,None
+P0240,18,Female,Black,Hypertension,None,0.76,Phase II,No,None
+P0241,69,Male,White,None,Obesity,0.66,Phase I,No,None
+P0242,18,Female,Black,Asthma,Arthritis,0.87,Phase I,Yes,Lack of Improvement
+P0243,34,Male,Black,None,Kidney Disease,0.77,Phase III,Yes,Side Effects
+P0244,65,Male,Hispanic,Heart Disease,Arthritis,0.85,Phase III,No,None
+P0245,55,Male,Hispanic,Asthma,Depression,0.44,Phase III,Yes,Side Effects
+P0246,64,Female,Black,Cancer,Kidney Disease,1,Phase III,No,None
+P0247,79,Male,White,Heart Disease,Kidney Disease,1,Phase II,No,None
+P0248,61,Male,Hispanic,None,Kidney Disease,0.77,Phase I,No,None
+P0249,75,Male,Asian,Asthma,Depression,1,Phase I,No,None
+P0250,26,Female,White,None,None,1,Phase III,No,None
+P0251,63,Female,Hispanic,Asthma,None,0.88,Phase II,No,None
+P0252,47,Female,Black,Heart Disease,Obesity,1,Phase III,Yes,Side Effects
+P0253,72,Female,Black,None,Depression,0.96,Phase II,No,None
+P0254,46,Male,Hispanic,Cancer,Kidney Disease,0.4,Phase II,No,None
+P0255,44,Male,White,Cancer,Kidney Disease,0.7,Phase II,No,None
+P0256,60,Female,Asian,Hypertension,Kidney Disease,0.89,Phase I,No,None
+P0257,23,Male,White,Heart Disease,Obesity,1,Phase III,No,None
+P0258,65,Female,Black,Asthma,Obesity,0.47,Phase III,No,None
+P0259,79,Female,White,Cancer,Obesity,0.41,Phase II,No,None
+P0260,40,Female,Hispanic,None,Obesity,0.74,Phase II,No,None
+P0261,56,Female,Asian,Diabetes,None,0.34,Phase III,No,None
+P0262,31,Male,Hispanic,Hypertension,Obesity,0.73,Phase II,Yes,Medical Advice
+P0263,41,Male,Asian,Asthma,Depression,0.82,Phase II,Yes,Medical Advice
+P0264,80,Female,White,None,None,0.56,Phase I,No,None
+P0265,56,Female,Asian,Diabetes,Depression,0.74,Phase II,No,None
+P0266,62,Female,Asian,Cancer,Obesity,0.94,Phase I,Yes,Lack of Improvement
+P0267,54,Female,Hispanic,Diabetes,Depression,0.64,Phase III,Yes,None
+P0268,80,Male,White,None,None,0.59,Phase I,Yes,Lost Interest
+P0269,44,Female,Asian,Hypertension,Arthritis,0.73,Phase II,Yes,None
+P0270,38,Female,White,Diabetes,Obesity,0.54,Phase I,No,None
+P0271,28,Female,White,None,Obesity,1,Phase II,Yes,Lost Interest
+P0272,60,Female,Hispanic,Asthma,Kidney Disease,0.76,Phase II,No,None
+P0273,35,Male,White,Diabetes,Arthritis,0.61,Phase II,No,None
+P0274,25,Female,White,Heart Disease,None,0.79,Phase III,No,None
+P0275,37,Male,Black,Heart Disease,None,0.73,Phase I,No,None
+P0276,18,Male,Asian,Hypertension,Depression,0.71,Phase II,No,None
+P0277,36,Female,White,Diabetes,Kidney Disease,0.64,Phase III,No,None
+P0278,45,Male,Black,Heart Disease,None,0.63,Phase III,No,None
+P0279,32,Female,White,None,Arthritis,0.45,Phase I,No,None
+P0280,43,Female,White,Heart Disease,Obesity,1,Phase II,No,None
+P0281,76,Male,Asian,Asthma,Kidney Disease,0.87,Phase III,No,None
+P0282,43,Female,Hispanic,Cancer,Obesity,0.81,Phase II,No,None
+P0283,19,Female,Black,Asthma,Kidney Disease,0.72,Phase III,No,None
+P0284,76,Female,White,Heart Disease,Obesity,0.56,Phase I,Yes,Lost Interest
+P0285,55,Female,White,Diabetes,Kidney Disease,0.6,Phase II,Yes,None
+P0286,39,Male,Asian,Hypertension,Obesity,0.47,Phase III,No,None
+P0287,58,Male,White,Asthma,Depression,0.62,Phase II,Yes,Logistical Issues
+P0288,64,Female,Black,Hypertension,Obesity,0.53,Phase I,No,None
+P0289,34,Male,Black,Asthma,Depression,1,Phase III,No,None
+P0290,22,Male,Hispanic,Heart Disease,None,0.93,Phase III,No,None
+P0291,46,Female,White,None,None,0.77,Phase II,No,None
+P0292,73,Female,Asian,Hypertension,Kidney Disease,0.58,Phase I,No,None
+P0293,48,Female,Asian,Cancer,None,0.54,Phase I,No,None
+P0294,40,Female,White,Cancer,Kidney Disease,0.71,Phase II,No,None
+P0295,20,Male,Asian,Cancer,Obesity,0.94,Phase III,No,None
+P0296,73,Male,White,Asthma,None,1,Phase II,No,None
+P0297,47,Female,White,None,Obesity,0.47,Phase II,Yes,Medical Advice
+P0298,59,Male,Asian,Asthma,Kidney Disease,0.86,Phase III,Yes,Lack of Improvement
+P0299,79,Male,Hispanic,Diabetes,Arthritis,0.62,Phase III,Yes,Side Effects
+P0300,50,Female,Black,Diabetes,Depression,0.65,Phase III,No,None
+P0301,46,Female,White,Asthma,None,0.76,Phase I,No,None
+P0302,41,Female,Asian,Heart Disease,Kidney Disease,0.58,Phase II,No,None
+P0303,61,Female,White,None,Arthritis,0.7,Phase I,No,None
+P0304,39,Male,White,None,Kidney Disease,0.57,Phase II,No,None
+P0305,34,Female,White,Hypertension,Arthritis,0.63,Phase I,Yes,Medical Advice
+P0306,60,Male,Asian,Cancer,Kidney Disease,0.9,Phase I,No,None
+P0307,56,Female,White,Cancer,None,0.77,Phase II,No,None
+P0308,59,Female,Black,None,None,0.9,Phase I,No,None
+P0309,59,Female,Hispanic,Asthma,Arthritis,0.62,Phase I,No,None
+P0310,41,Female,Black,Hypertension,Arthritis,0.86,Phase II,No,None
+P0311,30,Male,Black,Hypertension,Obesity,0.42,Phase II,Yes,Side Effects
+P0312,50,Female,White,Diabetes,Arthritis,0.76,Phase III,No,None
+P0313,26,Female,Hispanic,Hypertension,Depression,0.88,Phase I,Yes,None
+P0314,67,Female,Black,None,Kidney Disease,0.42,Phase I,No,None
+P0315,44,Female,Black,Heart Disease,None,0.62,Phase II,No,None
+P0316,66,Female,Hispanic,Hypertension,None,0.76,Phase I,Yes,Logistical Issues
+P0317,79,Female,Black,Cancer,None,0.95,Phase II,No,None
+P0318,47,Female,Hispanic,Asthma,None,0.63,Phase II,No,None
+P0319,79,Male,Black,Asthma,Depression,0.86,Phase II,No,None
+P0320,21,Female,Hispanic,Cancer,None,1,Phase I,No,None
+P0321,63,Female,White,Cancer,Obesity,0.87,Phase I,No,None
+P0322,35,Female,White,Hypertension,Kidney Disease,0.71,Phase I,No,None
+P0323,78,Male,Hispanic,Cancer,Obesity,0.82,Phase II,No,None
+P0324,21,Female,White,Cancer,Depression,0.63,Phase II,Yes,Side Effects
+P0325,41,Male,White,Cancer,Obesity,0.77,Phase III,No,None
+P0326,59,Female,Black,Hypertension,Obesity,0.72,Phase II,No,None
+P0327,76,Female,Black,None,Kidney Disease,0.82,Phase II,Yes,Medical Advice
+P0328,18,Male,White,Cancer,Depression,0.67,Phase I,Yes,Medical Advice
+P0329,78,Female,White,Asthma,Kidney Disease,0.83,Phase I,No,None
+P0330,67,Female,Black,Cancer,Obesity,0.67,Phase I,No,None
+P0331,33,Female,White,Heart Disease,Obesity,0.92,Phase I,No,None
+P0332,71,Female,White,Asthma,Obesity,0.68,Phase III,No,None
+P0333,50,Female,Black,None,Depression,0.34,Phase II,No,None
+P0334,45,Male,White,Cancer,Depression,0.55,Phase III,No,None
+P0335,44,Male,White,Asthma,Arthritis,0.75,Phase I,Yes,Medical Advice
+P0336,52,Female,White,Asthma,Obesity,1,Phase II,No,None
+P0337,73,Female,White,None,Kidney Disease,0.92,Phase II,No,None
+P0338,34,Female,White,Cancer,Obesity,0.31,Phase II,No,None
+P0339,33,Female,White,Asthma,Arthritis,0.45,Phase I,Yes,Side Effects
+P0340,40,Female,Asian,None,Depression,0.98,Phase III,No,None
+P0341,47,Female,Hispanic,None,Depression,0.88,Phase I,No,None
+P0342,22,Female,Hispanic,Diabetes,Arthritis,1,Phase I,No,None
+P0343,20,Male,White,Cancer,Arthritis,0.66,Phase III,Yes,Lost Interest
+P0344,70,Female,Hispanic,Cancer,Obesity,0.58,Phase III,No,None
+P0345,30,Female,Asian,Diabetes,Arthritis,0.76,Phase II,No,None
+P0346,25,Female,Hispanic,Heart Disease,Kidney Disease,0.65,Phase II,No,None
+P0347,39,Male,Hispanic,None,Kidney Disease,0.96,Phase II,Yes,Medical Advice
+P0348,35,Male,Hispanic,Diabetes,Kidney Disease,0.65,Phase III,No,None
+P0349,70,Male,White,Cancer,Arthritis,0.7,Phase I,No,None
+P0350,23,Female,Asian,Cancer,Kidney Disease,0.55,Phase III,Yes,None
+P0351,45,Male,Hispanic,Cancer,Kidney Disease,0.9,Phase I,No,None
+P0352,64,Female,White,Heart Disease,Arthritis,0.57,Phase III,No,None
+P0353,80,Male,White,None,Kidney Disease,0.83,Phase II,No,None
+P0354,50,Female,Black,Diabetes,Depression,1,Phase III,No,None
+P0355,61,Female,White,Hypertension,Obesity,0.39,Phase I,No,None
+P0356,67,Female,Asian,Cancer,Kidney Disease,1,Phase III,No,None
+P0357,20,Female,Black,None,Kidney Disease,0.81,Phase II,No,None
+P0358,41,Female,White,Asthma,Depression,0.52,Phase III,No,None
+P0359,41,Female,Asian,None,Arthritis,0.77,Phase I,No,None
+P0360,79,Male,White,None,Depression,0.9,Phase II,No,None
+P0361,51,Female,White,Diabetes,Arthritis,0.59,Phase II,No,None
+P0362,63,Female,Black,Asthma,Arthritis,0.84,Phase III,No,None
+P0363,76,Female,Black,Diabetes,Depression,1,Phase I,No,None
+P0364,46,Male,Hispanic,Diabetes,Arthritis,0.65,Phase III,No,None
+P0365,40,Female,White,Asthma,None,0.55,Phase II,No,None
+P0366,75,Female,Black,None,Depression,0.72,Phase II,No,None
+P0367,50,Male,White,Hypertension,Depression,0.76,Phase I,No,None
+P0368,68,Female,White,Cancer,None,0.97,Phase III,No,None
+P0369,41,Female,White,Hypertension,None,0.72,Phase I,No,None
+P0370,22,Female,Hispanic,None,Kidney Disease,0.66,Phase III,Yes,Lost Interest
+P0371,67,Female,White,Diabetes,Depression,0.55,Phase II,No,None
+P0372,59,Male,Hispanic,Heart Disease,None,0.42,Phase II,No,None
+P0373,26,Female,White,Hypertension,Depression,0.49,Phase II,No,None
+P0374,50,Male,White,Asthma,Depression,0.49,Phase II,No,None
+P0375,28,Male,Asian,None,Depression,0.7,Phase II,Yes,Medical Advice
+P0376,75,Female,White,Cancer,Depression,0.45,Phase III,Yes,Medical Advice
+P0377,35,Male,Asian,Asthma,None,0.21,Phase I,No,None
+P0378,50,Female,Black,Asthma,None,0.74,Phase I,No,None
+P0379,28,Female,White,None,None,1,Phase II,Yes,Medical Advice
+P0380,20,Male,White,Diabetes,None,0.98,Phase II,No,None
+P0381,59,Male,White,Heart Disease,None,0.7,Phase III,Yes,Side Effects
+P0382,49,Female,White,Cancer,Arthritis,0.53,Phase II,No,None
+P0383,33,Female,Hispanic,Cancer,Kidney Disease,1,Phase I,Yes,None
+P0384,21,Male,Hispanic,Heart Disease,Kidney Disease,0.76,Phase II,No,None
+P0385,31,Female,White,Hypertension,Arthritis,0.79,Phase III,Yes,Logistical Issues
+P0386,64,Female,Hispanic,Hypertension,Arthritis,0.72,Phase III,Yes,Medical Advice
+P0387,24,Female,Black,Heart Disease,Obesity,0.74,Phase II,No,None
+P0388,46,Male,Black,Diabetes,Obesity,0.64,Phase II,Yes,Lost Interest
+P0389,73,Female,Hispanic,Hypertension,Depression,0.7,Phase II,No,None
+P0390,77,Female,Asian,Hypertension,Depression,1,Phase II,No,None
+P0391,50,Female,Hispanic,Cancer,Kidney Disease,1,Phase I,Yes,Side Effects
+P0392,78,Female,White,Heart Disease,Depression,0.34,Phase I,Yes,Medical Advice
+P0393,40,Male,White,Cancer,Kidney Disease,0.47,Phase III,No,None
+P0394,74,Female,Hispanic,Cancer,None,0.59,Phase I,No,None
+P0395,72,Male,Hispanic,Hypertension,Arthritis,0.94,Phase III,Yes,Logistical Issues
+P0396,66,Female,Asian,Diabetes,Kidney Disease,1,Phase I,Yes,Medical Advice
+P0397,53,Male,Asian,Asthma,Arthritis,0.89,Phase I,Yes,Lost Interest
+P0398,50,Female,White,Cancer,None,0.52,Phase III,Yes,Medical Advice
+P0399,25,Male,White,Heart Disease,Arthritis,0.65,Phase II,No,None
+P0400,53,Female,Black,Hypertension,None,0.85,Phase III,Yes,Lost Interest
+P0401,50,Male,White,Diabetes,Depression,0.7,Phase III,No,None
+P0402,39,Female,White,Heart Disease,Depression,0.68,Phase III,No,None
+P0403,75,Female,Black,Cancer,None,0.68,Phase II,No,None
+P0404,28,Female,White,None,Arthritis,0.98,Phase III,Yes,Logistical Issues
+P0405,50,Female,White,Heart Disease,None,0.87,Phase II,Yes,Lost Interest
+P0406,70,Male,Asian,Cancer,Obesity,0.69,Phase II,Yes,Medical Advice
+P0407,37,Female,White,Asthma,Kidney Disease,0.82,Phase II,No,None
+P0408,79,Female,White,Asthma,Depression,0.5,Phase III,No,None
+P0409,21,Female,Hispanic,Hypertension,None,0.65,Phase III,No,None
+P0410,64,Female,Hispanic,Hypertension,Depression,0.96,Phase I,No,None
+P0411,54,Female,White,Hypertension,Obesity,0.44,Phase II,No,None
+P0412,38,Female,Black,Heart Disease,Depression,0.87,Phase II,No,None
+P0413,50,Female,Hispanic,None,Obesity,0.33,Phase III,No,None
+P0414,26,Female,Black,Asthma,Arthritis,1,Phase III,No,None
+P0415,48,Female,Hispanic,Cancer,Depression,0.64,Phase II,No,None
+P0416,76,Female,Asian,Asthma,Arthritis,0.83,Phase III,No,None
+P0417,67,Female,Asian,Asthma,Kidney Disease,0.77,Phase I,No,None
+P0418,79,Male,Asian,Asthma,Arthritis,0.78,Phase I,Yes,Logistical Issues
+P0419,67,Female,Black,None,Kidney Disease,0.81,Phase II,No,None
+P0420,48,Female,White,None,Arthritis,0.41,Phase II,No,None
+P0421,25,Female,White,Heart Disease,Kidney Disease,0.78,Phase II,No,None
+P0422,79,Male,Asian,Diabetes,Arthritis,0.71,Phase III,No,None
+P0423,23,Female,Hispanic,None,Arthritis,0.64,Phase III,Yes,Lost Interest
+P0424,31,Male,Black,Cancer,None,0.59,Phase III,No,None
+P0425,35,Male,White,Asthma,None,0.79,Phase I,No,None
+P0426,33,Male,Black,Hypertension,Depression,0.55,Phase I,No,None
+P0427,24,Female,Asian,None,Kidney Disease,0.96,Phase I,Yes,None
+P0428,67,Male,White,Asthma,Depression,0.84,Phase II,Yes,None
+P0429,77,Female,Hispanic,None,Depression,0.8,Phase II,No,None
+P0430,38,Female,White,Diabetes,None,0.95,Phase I,No,None
+P0431,52,Female,White,Hypertension,Kidney Disease,0.38,Phase I,No,None
+P0432,77,Male,Hispanic,Heart Disease,Depression,0.49,Phase III,Yes,Logistical Issues
+P0433,74,Male,White,Cancer,None,0.85,Phase III,Yes,Side Effects
+P0434,77,Female,Asian,Heart Disease,None,0.6,Phase III,No,None
+P0435,49,Male,Black,Heart Disease,Arthritis,0.63,Phase I,No,None
+P0436,69,Male,Asian,Hypertension,Kidney Disease,0.47,Phase III,No,None
+P0437,34,Female,Black,Diabetes,Arthritis,0.55,Phase II,No,None
+P0438,54,Female,Black,Hypertension,None,0.96,Phase III,No,None
+P0439,75,Female,Hispanic,Asthma,Arthritis,0.85,Phase I,No,None
+P0440,43,Female,White,Hypertension,Depression,0.79,Phase II,Yes,Logistical Issues
+P0441,77,Male,White,Cancer,Kidney Disease,0.63,Phase I,No,None
+P0442,46,Female,Asian,Cancer,None,0.77,Phase III,No,None
+P0443,54,Male,Asian,None,Arthritis,0.98,Phase III,Yes,Lack of Improvement
+P0444,21,Female,White,Heart Disease,Arthritis,0.61,Phase I,Yes,Lost Interest
+P0445,61,Female,Asian,None,Obesity,0.74,Phase III,No,None
+P0446,76,Female,Asian,Asthma,Depression,1,Phase I,No,None
+P0447,79,Male,Hispanic,Hypertension,Kidney Disease,0.89,Phase III,No,None
+P0448,56,Female,Hispanic,None,None,0.64,Phase II,No,None
+P0449,66,Female,Black,Hypertension,None,0.87,Phase I,No,None
+P0450,51,Female,Black,None,Arthritis,0.44,Phase I,Yes,Medical Advice
+P0451,25,Male,Black,Asthma,Depression,0.74,Phase III,Yes,Medical Advice
+P0452,27,Male,Asian,Asthma,Kidney Disease,0.87,Phase I,No,None
+P0453,61,Male,Black,Heart Disease,Obesity,0.83,Phase III,No,None
+P0454,46,Male,Hispanic,Hypertension,None,0.87,Phase II,No,None
+P0455,47,Female,White,Asthma,Kidney Disease,0.92,Phase III,Yes,Logistical Issues
+P0456,64,Male,Hispanic,Cancer,Obesity,0.84,Phase III,No,None
+P0457,31,Female,White,Diabetes,Kidney Disease,0.84,Phase II,Yes,None
+P0458,22,Female,White,Diabetes,Kidney Disease,0.79,Phase I,No,None
+P0459,36,Female,Black,Hypertension,Kidney Disease,0.53,Phase II,No,None
+P0460,75,Female,Hispanic,Heart Disease,Kidney Disease,0.96,Phase I,No,None
+P0461,61,Female,White,Hypertension,Arthritis,0.74,Phase I,No,None
+P0462,29,Female,Hispanic,Asthma,Depression,0.89,Phase III,No,None
+P0463,80,Male,White,Diabetes,Arthritis,0.94,Phase II,Yes,None
+P0464,64,Female,Hispanic,Asthma,Kidney Disease,0.65,Phase I,No,None
+P0465,33,Female,Asian,Hypertension,Arthritis,0.66,Phase I,Yes,None
+P0466,66,Male,White,None,Kidney Disease,0.69,Phase III,No,None
+P0467,67,Male,Black,Hypertension,Obesity,1,Phase I,Yes,Medical Advice
+P0468,20,Female,Black,None,Obesity,0.57,Phase I,No,None
+P0469,65,Male,Hispanic,Heart Disease,Depression,1,Phase III,No,None
+P0470,31,Male,Black,Asthma,Arthritis,0.79,Phase I,No,None
+P0471,70,Female,White,Cancer,None,0.8,Phase III,Yes,None
+P0472,70,Female,Black,Cancer,Depression,0.93,Phase III,Yes,Medical Advice
+P0473,32,Female,Asian,Cancer,Obesity,0.77,Phase III,No,None
+P0474,78,Female,Black,None,Kidney Disease,0.96,Phase III,No,None
+P0475,49,Male,Asian,None,Kidney Disease,0.65,Phase III,No,None
+P0476,38,Female,Hispanic,Heart Disease,Depression,1,Phase II,No,None
+P0477,42,Male,Black,Heart Disease,Depression,0.66,Phase I,No,None
+P0478,37,Female,Black,Heart Disease,Obesity,1,Phase III,No,None
+P0479,44,Female,Black,Asthma,Depression,0.67,Phase II,No,None
+P0480,33,Female,Black,Cancer,Obesity,0.69,Phase II,No,None
+P0481,72,Female,White,Asthma,Depression,0.55,Phase I,Yes,Logistical Issues
+P0482,42,Female,White,Asthma,Obesity,0.6,Phase I,Yes,Lack of Improvement
+P0483,69,Female,White,Hypertension,Kidney Disease,0.74,Phase I,No,None
+P0484,73,Female,Asian,Diabetes,Depression,0.8,Phase I,No,None
+P0485,79,Female,White,None,Kidney Disease,0.95,Phase I,No,None
+P0486,62,Female,Black,Heart Disease,Depression,0.71,Phase III,No,None
+P0487,38,Female,Hispanic,Heart Disease,None,0.53,Phase III,No,None
+P0488,40,Female,Asian,Cancer,None,0.83,Phase II,Yes,Lost Interest
+P0489,24,Female,Hispanic,Cancer,Depression,0.78,Phase II,No,None
+P0490,38,Female,White,Asthma,Depression,0.85,Phase III,No,None
+P0491,27,Male,Asian,Asthma,None,0.62,Phase III,Yes,None
+P0492,44,Female,Black,Hypertension,Arthritis,0.64,Phase I,Yes,Lost Interest
+P0493,54,Male,Hispanic,Asthma,Arthritis,0.62,Phase II,Yes,Lost Interest
+P0494,79,Female,Hispanic,Heart Disease,Depression,0.99,Phase III,No,None
+P0495,68,Female,Black,Hypertension,None,1,Phase II,No,None
+P0496,29,Female,White,Asthma,Obesity,0.64,Phase I,Yes,None
+P0497,21,Male,Hispanic,Hypertension,Depression,0.64,Phase I,Yes,None
+P0498,27,Male,Black,Asthma,Kidney Disease,0.88,Phase II,No,None
+P0499,21,Female,White,Heart Disease,Kidney Disease,1,Phase I,Yes,Side Effects
+P0500,52,Female,Hispanic,Diabetes,Obesity,1,Phase III,No,None
+P0501,64,Female,Black,Cancer,Obesity,0.63,Phase III,No,None
+P0502,70,Female,Hispanic,Hypertension,Obesity,0.67,Phase I,No,None
+P0503,51,Male,Black,Hypertension,None,0.81,Phase III,No,None
+P0504,34,Female,Asian,Heart Disease,Obesity,0.82,Phase II,No,None
+P0505,79,Female,Hispanic,Asthma,Depression,0.71,Phase III,No,None
+P0506,32,Female,White,None,Obesity,0.59,Phase I,No,None
+P0507,43,Female,Hispanic,Asthma,Kidney Disease,0.74,Phase I,Yes,None
+P0508,18,Female,Black,Diabetes,Kidney Disease,1,Phase II,Yes,None
+P0509,68,Female,Black,Diabetes,None,0.65,Phase I,No,None
+P0510,32,Male,Black,Heart Disease,Arthritis,0.79,Phase I,No,None
+P0511,77,Male,Asian,Asthma,None,1,Phase III,No,None
+P0512,20,Male,Asian,Diabetes,Depression,0.64,Phase III,No,None
+P0513,27,Female,Hispanic,Diabetes,Arthritis,0.89,Phase I,No,None
+P0514,54,Male,Black,Heart Disease,None,1,Phase II,No,None
+P0515,42,Female,Black,None,Obesity,0.87,Phase III,No,None
+P0516,65,Female,White,Diabetes,Kidney Disease,0.97,Phase I,No,None
+P0517,71,Male,Asian,Asthma,None,0.91,Phase III,No,None
+P0518,43,Female,White,None,Arthritis,0.85,Phase II,No,None
+P0519,49,Male,Asian,Asthma,Kidney Disease,1,Phase II,Yes,Lack of Improvement
+P0520,61,Female,Hispanic,Diabetes,None,0.88,Phase II,No,None
+P0521,69,Male,White,Diabetes,Arthritis,0.72,Phase I,No,None
+P0522,42,Female,Black,None,Kidney Disease,0.78,Phase II,No,None
+P0523,41,Male,White,Diabetes,Arthritis,0.82,Phase II,No,None
+P0524,41,Female,White,Hypertension,Obesity,0.67,Phase I,No,None
+P0525,45,Female,Black,Asthma,None,0.79,Phase II,No,None
+P0526,24,Male,White,Cancer,None,0.76,Phase I,No,None
+P0527,56,Female,Asian,Heart Disease,Obesity,0.88,Phase II,No,None
+P0528,44,Female,White,None,None,1,Phase I,Yes,Medical Advice
+P0529,51,Male,Hispanic,Hypertension,Depression,0.8,Phase II,No,None
+P0530,37,Female,Hispanic,Hypertension,Obesity,1,Phase I,No,None
+P0531,45,Female,Hispanic,Cancer,Kidney Disease,0.87,Phase I,Yes,Logistical Issues
+P0532,34,Male,Hispanic,Asthma,None,0.79,Phase I,No,None
+P0533,47,Male,Black,Cancer,Obesity,0.66,Phase II,No,None
+P0534,39,Female,Hispanic,Cancer,Kidney Disease,0.79,Phase II,No,None
+P0535,45,Female,White,Hypertension,Arthritis,0.78,Phase II,No,None
+P0536,56,Female,Black,Heart Disease,Arthritis,0.61,Phase I,No,None
+P0537,79,Female,Asian,Cancer,Kidney Disease,0.64,Phase III,No,None
+P0538,68,Male,Asian,Heart Disease,Arthritis,0.83,Phase II,Yes,Logistical Issues
+P0539,25,Female,Black,Asthma,None,1,Phase I,No,None
+P0540,61,Female,White,None,Kidney Disease,0.74,Phase III,No,None
+P0541,31,Female,Asian,None,Obesity,0.46,Phase II,Yes,None
+P0542,49,Male,Asian,Hypertension,Arthritis,0.31,Phase III,No,None
+P0543,27,Female,Hispanic,Heart Disease,Obesity,0.55,Phase II,Yes,Medical Advice
+P0544,48,Female,Hispanic,Asthma,None,0.89,Phase III,No,None
+P0545,44,Female,White,Cancer,None,0.49,Phase III,No,None
+P0546,58,Male,White,Hypertension,Arthritis,0.92,Phase I,Yes,None
+P0547,57,Male,Black,None,Kidney Disease,0.88,Phase II,No,None
+P0548,79,Female,White,Diabetes,Obesity,0.73,Phase II,No,None
+P0549,32,Female,White,Asthma,None,0.44,Phase III,No,None
+P0550,54,Male,Hispanic,Cancer,Kidney Disease,0.61,Phase II,No,None
+P0551,67,Female,White,None,None,0.7,Phase I,Yes,Logistical Issues
+P0552,19,Female,White,Cancer,Kidney Disease,0.82,Phase I,Yes,Side Effects
+P0553,71,Female,Black,Cancer,Arthritis,0.5,Phase II,No,None
+P0554,47,Male,Black,Heart Disease,Arthritis,1,Phase II,No,None
+P0555,24,Female,Hispanic,Cancer,Obesity,0.82,Phase II,No,None
+P0556,20,Female,White,Diabetes,Arthritis,0.84,Phase III,No,None
+P0557,24,Female,Black,None,Depression,0.88,Phase III,Yes,Lack of Improvement
+P0558,53,Male,Asian,Asthma,Kidney Disease,1,Phase II,Yes,Lack of Improvement
+P0559,69,Female,Black,Hypertension,Kidney Disease,0.79,Phase II,No,None
+P0560,19,Female,White,Hypertension,Kidney Disease,0.89,Phase III,No,None
+P0561,45,Female,White,None,Depression,0.61,Phase I,Yes,Logistical Issues
+P0562,66,Female,White,Asthma,Obesity,1,Phase III,No,None
+P0563,29,Female,Asian,Hypertension,Kidney Disease,0.78,Phase I,No,None
+P0564,34,Female,Hispanic,Asthma,Arthritis,0.61,Phase III,No,None
+P0565,42,Female,Hispanic,Asthma,Obesity,0.66,Phase II,Yes,Logistical Issues
+P0566,72,Female,Black,Hypertension,Arthritis,0.37,Phase III,Yes,Medical Advice
+P0567,23,Female,Black,Cancer,Obesity,0.66,Phase I,No,None
+P0568,37,Male,Black,Cancer,Depression,0.27,Phase III,No,None
+P0569,42,Female,Black,Hypertension,None,0.91,Phase II,No,None
+P0570,45,Male,Hispanic,None,None,0.84,Phase III,Yes,None
+P0571,77,Male,Black,Hypertension,Kidney Disease,0.56,Phase II,Yes,Lack of Improvement
+P0572,29,Female,Hispanic,Asthma,Obesity,0.74,Phase II,No,None
+P0573,78,Male,Hispanic,Hypertension,Depression,0.75,Phase II,No,None
+P0574,79,Female,White,None,Kidney Disease,0.52,Phase II,No,None
+P0575,61,Female,Hispanic,None,Kidney Disease,0.71,Phase II,No,None
+P0576,28,Male,Black,Diabetes,Depression,0.76,Phase II,No,None
+P0577,20,Female,Black,Asthma,Arthritis,0.7,Phase I,Yes,Lost Interest
+P0578,54,Female,Hispanic,Asthma,None,0.61,Phase I,Yes,Medical Advice
+P0579,25,Female,Black,Cancer,None,0.55,Phase I,No,None
+P0580,66,Female,Hispanic,Asthma,Depression,0.69,Phase II,No,None
+P0581,24,Female,Black,Cancer,Obesity,0.64,Phase II,Yes,Logistical Issues
+P0582,40,Male,Hispanic,Diabetes,Depression,0.86,Phase I,Yes,None
+P0583,55,Female,Asian,None,None,1,Phase III,Yes,Lost Interest
+P0584,28,Female,Black,Hypertension,Depression,0.93,Phase I,No,None
+P0585,54,Female,Black,Cancer,None,0.76,Phase III,No,None
+P0586,28,Female,Asian,Cancer,None,0.62,Phase II,No,None
+P0587,78,Female,White,Hypertension,Kidney Disease,0.93,Phase I,No,None
+P0588,35,Female,Black,None,Depression,0.88,Phase I,No,None
+P0589,27,Female,Asian,Hypertension,Kidney Disease,1,Phase II,No,None
+P0590,27,Female,Asian,None,Kidney Disease,0.79,Phase II,No,None
+P0591,46,Male,White,Heart Disease,None,1,Phase III,Yes,Logistical Issues
+P0592,62,Female,Hispanic,Heart Disease,Arthritis,0.79,Phase III,Yes,Side Effects
+P0593,73,Female,White,None,Kidney Disease,0.62,Phase III,No,None
+P0594,60,Female,Asian,Diabetes,None,0.65,Phase II,Yes,Lack of Improvement
+P0595,79,Female,Black,Heart Disease,Arthritis,0.85,Phase II,No,None
+P0596,71,Female,Asian,Asthma,None,0.64,Phase I,No,None
+P0597,54,Female,Asian,None,Obesity,1,Phase I,Yes,Side Effects
+P0598,58,Female,White,Diabetes,Depression,0.84,Phase II,No,None
+P0599,47,Male,Hispanic,Hypertension,Depression,0.76,Phase III,Yes,Logistical Issues
+P0600,28,Female,White,None,Arthritis,0.77,Phase II,No,None
+P0601,23,Female,Black,Diabetes,Kidney Disease,0.7,Phase III,No,None
+P0602,37,Female,Black,Heart Disease,Obesity,0.42,Phase III,No,None
+P0603,24,Male,Black,Heart Disease,Obesity,0.65,Phase I,No,None
+P0604,55,Male,Black,None,Kidney Disease,1,Phase I,No,None
+P0605,18,Female,Asian,Diabetes,Kidney Disease,0.79,Phase III,No,None
+P0606,26,Female,White,Hypertension,Kidney Disease,0.96,Phase I,No,None
+P0607,64,Male,White,Cancer,Arthritis,0.97,Phase II,No,None
+P0608,26,Female,Black,None,Depression,0.74,Phase I,No,None
+P0609,51,Female,White,Asthma,Depression,0.88,Phase II,No,None
+P0610,40,Female,Black,None,Depression,0.43,Phase II,Yes,Medical Advice
+P0611,61,Female,Black,Diabetes,Obesity,1,Phase I,No,None
+P0612,66,Male,Black,None,Kidney Disease,1,Phase II,Yes,Lost Interest
+P0613,38,Male,Black,Cancer,Obesity,0.85,Phase I,Yes,Medical Advice
+P0614,56,Female,White,Cancer,Obesity,0.8,Phase III,Yes,Logistical Issues
+P0615,31,Female,White,Asthma,Depression,0.74,Phase III,Yes,Lost Interest
+P0616,36,Female,White,Hypertension,Kidney Disease,0.98,Phase II,No,None
+P0617,25,Male,Hispanic,None,None,0.9,Phase I,No,None
+P0618,51,Male,Asian,Cancer,Depression,0.18,Phase II,No,None
+P0619,73,Female,Hispanic,Cancer,None,0.68,Phase III,No,None
+P0620,29,Female,White,Diabetes,None,0.53,Phase I,No,None
+P0621,18,Female,Black,Diabetes,Obesity,0.49,Phase II,No,None
+P0622,50,Female,Black,Heart Disease,Kidney Disease,0.98,Phase III,Yes,Lost Interest
+P0623,23,Female,White,Asthma,None,0.74,Phase I,Yes,Logistical Issues
+P0624,23,Female,White,Asthma,Depression,0.85,Phase I,Yes,Medical Advice
+P0625,38,Female,Black,None,Obesity,0.77,Phase II,No,None
+P0626,62,Female,Black,Diabetes,Depression,0.49,Phase I,No,None
+P0627,77,Female,White,Heart Disease,None,0.44,Phase III,No,None
+P0628,21,Female,Black,Diabetes,Obesity,0.66,Phase III,No,None
+P0629,26,Female,White,Hypertension,Kidney Disease,0.68,Phase II,Yes,Medical Advice
+P0630,51,Female,Asian,Hypertension,Arthritis,0.68,Phase I,No,None
+P0631,65,Female,White,Diabetes,Arthritis,0.69,Phase II,No,None
+P0632,35,Female,White,Cancer,None,1,Phase III,No,None
+P0633,22,Female,Hispanic,Asthma,Arthritis,0.96,Phase I,Yes,Lost Interest
+P0634,72,Female,Black,Cancer,Depression,0.8,Phase II,Yes,Side Effects
+P0635,75,Female,White,Hypertension,None,0.74,Phase I,No,None
+P0636,20,Male,Black,Diabetes,Kidney Disease,0.74,Phase II,No,None
+P0637,42,Male,Black,Diabetes,None,0.9,Phase III,No,None
+P0638,65,Female,Hispanic,Hypertension,Arthritis,0.73,Phase I,No,None
+P0639,44,Female,Asian,Cancer,Obesity,0.93,Phase III,No,None
+P0640,41,Male,Black,None,Obesity,0.82,Phase I,No,None
+P0641,32,Female,White,Heart Disease,Obesity,1,Phase II,Yes,Logistical Issues
+P0642,67,Female,Asian,Diabetes,None,0.72,Phase II,Yes,Side Effects
+P0643,41,Male,Asian,Asthma,Arthritis,0.97,Phase III,Yes,Medical Advice
+P0644,33,Female,Asian,Asthma,Kidney Disease,0.54,Phase I,No,None
+P0645,64,Female,Black,Hypertension,Obesity,0.63,Phase II,No,None
+P0646,19,Male,Black,Cancer,Obesity,1,Phase II,Yes,Side Effects
+P0647,66,Female,Hispanic,None,Arthritis,0.92,Phase I,No,None
+P0648,31,Female,Black,Heart Disease,Kidney Disease,0.85,Phase I,No,None
+P0649,80,Male,Asian,Diabetes,Obesity,1,Phase I,No,None
+P0650,75,Female,Hispanic,None,Arthritis,0.74,Phase II,No,None
+P0651,80,Female,White,Asthma,Obesity,0.97,Phase III,Yes,Lack of Improvement
+P0652,58,Female,White,Asthma,None,0.99,Phase I,No,None
+P0653,45,Female,Black,Hypertension,Arthritis,1,Phase II,Yes,Logistical Issues
+P0654,77,Female,Asian,Cancer,Kidney Disease,0.52,Phase II,No,None
+P0655,32,Male,Black,Hypertension,None,0.74,Phase I,No,None
+P0656,27,Male,Black,Heart Disease,Kidney Disease,0.82,Phase II,No,None
+P0657,44,Male,Black,Cancer,Depression,1,Phase II,No,None
+P0658,37,Female,Asian,Diabetes,Obesity,0.84,Phase I,No,None
+P0659,69,Female,Asian,None,None,0.99,Phase I,No,None
+P0660,31,Female,Black,Diabetes,Depression,0.5,Phase II,No,None
+P0661,43,Female,White,None,Arthritis,0.69,Phase II,No,None
+P0662,70,Male,White,Heart Disease,Kidney Disease,1,Phase III,Yes,None
+P0663,53,Male,White,Heart Disease,Obesity,0.72,Phase I,No,None
+P0664,25,Male,White,Hypertension,Depression,0.75,Phase I,No,None
+P0665,70,Female,Asian,None,Obesity,1,Phase III,No,None
+P0666,55,Female,White,Diabetes,Obesity,0.58,Phase I,No,None
+P0667,75,Female,Hispanic,Hypertension,Obesity,0.62,Phase II,Yes,Side Effects
+P0668,20,Female,White,Hypertension,None,0.49,Phase II,Yes,None
+P0669,43,Female,White,Heart Disease,Kidney Disease,1,Phase I,No,None
+P0670,40,Male,Black,Cancer,Arthritis,0.95,Phase II,No,None
+P0671,74,Male,White,Asthma,None,0.95,Phase III,No,None
+P0672,33,Female,Asian,Heart Disease,Kidney Disease,0.69,Phase III,No,None
+P0673,48,Male,White,Cancer,Kidney Disease,0.47,Phase I,No,None
+P0674,44,Male,Black,Hypertension,None,0.42,Phase I,No,None
+P0675,42,Female,Asian,Heart Disease,None,1,Phase II,No,None
+P0676,40,Female,White,Cancer,Kidney Disease,0.86,Phase II,No,None
+P0677,29,Male,Asian,Asthma,Depression,0.9,Phase I,Yes,Logistical Issues
+P0678,21,Female,Black,Cancer,None,0.81,Phase I,No,None
+P0679,80,Male,White,Hypertension,Depression,0.6,Phase II,No,None
+P0680,52,Female,White,Hypertension,None,0.69,Phase II,No,None
+P0681,40,Male,Black,Hypertension,None,0.55,Phase II,No,None
+P0682,69,Female,Asian,Asthma,Obesity,0.53,Phase III,No,None
+P0683,62,Female,Black,Asthma,Depression,0.93,Phase III,No,None
+P0684,78,Male,Hispanic,Asthma,Arthritis,0.44,Phase I,No,None
+P0685,49,Male,White,Diabetes,Depression,0.55,Phase III,Yes,Lack of Improvement
+P0686,19,Female,Hispanic,Diabetes,Arthritis,0.71,Phase III,No,None
+P0687,30,Male,Asian,None,Depression,0.77,Phase II,No,None
+P0688,21,Male,Black,Asthma,Depression,0.48,Phase I,Yes,Medical Advice
+P0689,73,Female,White,Cancer,Kidney Disease,0.43,Phase III,No,None
+P0690,24,Female,Asian,Cancer,Depression,0.84,Phase I,No,None
+P0691,64,Female,Hispanic,None,Arthritis,0.79,Phase I,Yes,None
+P0692,79,Female,Hispanic,Cancer,Depression,1,Phase III,No,None
+P0693,55,Male,Hispanic,Cancer,Arthritis,0.77,Phase I,No,None
+P0694,29,Female,White,None,None,0.86,Phase II,No,None
+P0695,72,Female,White,Hypertension,None,0.61,Phase II,No,None
+P0696,76,Female,Black,None,None,0.62,Phase I,No,None
+P0697,77,Female,Black,Cancer,Obesity,0.5,Phase I,No,None
+P0698,40,Female,Black,None,Obesity,0.61,Phase III,No,None
+P0699,60,Female,Asian,Heart Disease,Obesity,0.69,Phase II,No,None
+P0700,31,Male,White,Cancer,Arthritis,1,Phase I,Yes,None
+P0701,18,Male,Hispanic,Heart Disease,Kidney Disease,0.58,Phase I,No,None
+P0702,74,Female,Hispanic,Heart Disease,Arthritis,1,Phase III,Yes,Lost Interest
+P0703,24,Female,Black,None,Depression,0.88,Phase I,Yes,Lost Interest
+P0704,22,Male,Asian,Diabetes,Arthritis,0.83,Phase II,Yes,Side Effects
+P0705,22,Female,Black,Heart Disease,Depression,0.76,Phase III,No,None
+P0706,22,Female,White,Cancer,None,0.72,Phase III,No,None
+P0707,75,Female,White,Heart Disease,Depression,0.64,Phase III,No,None
+P0708,74,Female,Black,Diabetes,Obesity,0.48,Phase II,No,None
+P0709,31,Male,Hispanic,None,None,0.59,Phase III,No,None
+P0710,77,Female,Hispanic,Cancer,Arthritis,1,Phase II,No,None
+P0711,33,Male,White,Heart Disease,None,0.86,Phase III,No,None
+P0712,71,Female,Black,Diabetes,Arthritis,1,Phase I,Yes,Lost Interest
+P0713,23,Female,Black,Heart Disease,Depression,0.63,Phase I,Yes,Side Effects
+P0714,31,Male,Asian,Diabetes,Kidney Disease,0.55,Phase I,No,None
+P0715,37,Female,Hispanic,Heart Disease,Arthritis,0.76,Phase I,Yes,None
+P0716,52,Female,Black,Cancer,Kidney Disease,0.6,Phase II,No,None
+P0717,29,Female,White,Cancer,Kidney Disease,0.8,Phase II,No,None
+P0718,34,Male,Asian,Asthma,Obesity,0.44,Phase I,No,None
+P0719,66,Female,White,Diabetes,Arthritis,0.35,Phase III,No,None
+P0720,44,Female,Black,Asthma,Obesity,0.82,Phase II,No,None
+P0721,70,Female,Hispanic,Asthma,Kidney Disease,1,Phase III,No,None
+P0722,74,Male,Hispanic,Cancer,Obesity,0.83,Phase II,Yes,None
+P0723,20,Female,Hispanic,Asthma,None,0.86,Phase III,Yes,Medical Advice
+P0724,27,Male,Hispanic,Hypertension,Depression,0.77,Phase I,No,None
+P0725,69,Male,Black,Diabetes,Kidney Disease,0.78,Phase I,Yes,None
+P0726,45,Male,Black,Asthma,Arthritis,0.47,Phase II,No,None
+P0727,76,Female,White,Diabetes,Kidney Disease,0.6,Phase III,No,None
+P0728,43,Female,Asian,Cancer,None,1,Phase II,No,None
+P0729,76,Male,Black,Asthma,None,0.53,Phase II,No,None
+P0730,25,Female,Black,Hypertension,None,0.69,Phase III,No,None
+P0731,55,Male,White,Asthma,Obesity,0.99,Phase II,No,None
+P0732,73,Female,Asian,Heart Disease,Arthritis,0.78,Phase II,No,None
+P0733,59,Female,Black,Asthma,Kidney Disease,0.79,Phase I,Yes,Lack of Improvement
+P0734,35,Female,Black,Asthma,None,0.69,Phase III,No,None
+P0735,62,Female,White,Heart Disease,Arthritis,0.89,Phase III,Yes,Lack of Improvement
+P0736,21,Female,Hispanic,Cancer,Arthritis,0.94,Phase I,No,None
+P0737,39,Female,Asian,Cancer,Kidney Disease,0.59,Phase III,Yes,None
+P0738,24,Male,Black,Cancer,Kidney Disease,0.48,Phase II,No,None
+P0739,35,Female,Hispanic,Asthma,Obesity,0.38,Phase I,No,None
+P0740,46,Male,Hispanic,None,Kidney Disease,0.85,Phase III,No,None
+P0741,73,Female,White,Asthma,Depression,0.83,Phase I,No,None
+P0742,37,Female,Hispanic,Heart Disease,Depression,1,Phase III,No,None
+P0743,74,Female,White,Hypertension,Depression,0.77,Phase I,No,None
+P0744,71,Male,Black,Diabetes,Kidney Disease,0.73,Phase I,No,None
+P0745,76,Female,Black,Cancer,Arthritis,0.8,Phase II,No,None
+P0746,50,Female,White,None,Obesity,0.81,Phase I,No,None
+P0747,41,Female,Black,Heart Disease,Depression,0.72,Phase II,Yes,Medical Advice
+P0748,53,Female,Asian,Hypertension,Arthritis,0.6,Phase III,No,None
+P0749,71,Female,White,Cancer,Obesity,0.76,Phase II,No,None
+P0750,21,Male,Black,Hypertension,Depression,0.75,Phase III,No,None
+P0751,32,Female,Black,Cancer,Kidney Disease,0.74,Phase III,No,None
+P0752,19,Female,White,Heart Disease,Depression,0.91,Phase III,No,None
+P0753,29,Female,White,Hypertension,Arthritis,0.75,Phase III,No,None
+P0754,69,Female,Asian,Heart Disease,Kidney Disease,0.49,Phase II,Yes,Lost Interest
+P0755,34,Male,Hispanic,Cancer,None,0.63,Phase III,Yes,Lost Interest
+P0756,55,Male,White,Asthma,Arthritis,0.71,Phase III,Yes,None
+P0757,56,Female,Asian,Cancer,Obesity,0.76,Phase II,No,None
+P0758,22,Female,Asian,None,Arthritis,0.86,Phase II,No,None
+P0759,34,Female,Asian,Hypertension,Depression,0.76,Phase III,No,None
+P0760,66,Male,White,Asthma,Kidney Disease,0.35,Phase III,Yes,Logistical Issues
+P0761,61,Male,White,None,Kidney Disease,0.51,Phase II,No,None
+P0762,34,Female,Hispanic,Heart Disease,Obesity,0.87,Phase III,No,None
+P0763,63,Female,Black,Cancer,Depression,0.71,Phase III,Yes,Medical Advice
+P0764,58,Female,Asian,Asthma,Arthritis,1,Phase I,No,None
+P0765,71,Female,Hispanic,Hypertension,Arthritis,0.78,Phase I,No,None
+P0766,48,Male,Asian,None,None,0.68,Phase I,Yes,None
+P0767,75,Female,White,Hypertension,Arthritis,0.63,Phase I,No,None
+P0768,65,Female,Hispanic,Cancer,Arthritis,0.69,Phase II,Yes,Medical Advice
+P0769,36,Female,White,Heart Disease,Obesity,0.78,Phase III,No,None
+P0770,55,Female,Hispanic,Diabetes,Kidney Disease,0.75,Phase I,No,None
+P0771,50,Male,Hispanic,Asthma,Arthritis,0.94,Phase II,No,None
+P0772,21,Male,Black,Hypertension,Arthritis,0.45,Phase II,No,None
+P0773,54,Female,Black,Cancer,Depression,0.48,Phase I,No,None
+P0774,49,Female,Black,Cancer,Obesity,0.71,Phase I,No,None
+P0775,46,Female,Black,Hypertension,None,0.86,Phase I,No,None
+P0776,49,Male,Black,Asthma,Kidney Disease,0.9,Phase III,Yes,Lost Interest
+P0777,43,Female,Hispanic,Heart Disease,Obesity,0.63,Phase I,Yes,Medical Advice
+P0778,30,Female,Asian,Diabetes,Arthritis,0.23,Phase III,No,None
+P0779,30,Male,White,None,Depression,0.64,Phase I,No,None
+P0780,62,Female,Asian,Hypertension,Obesity,0.83,Phase II,Yes,Medical Advice
+P0781,55,Female,Black,Diabetes,Obesity,0.75,Phase II,Yes,Logistical Issues
+P0782,47,Female,Hispanic,Asthma,None,0.87,Phase II,No,None
+P0783,45,Female,Black,Cancer,Kidney Disease,0.99,Phase II,Yes,Lack of Improvement
+P0784,28,Female,White,Hypertension,Depression,0.72,Phase III,No,None
+P0785,26,Male,White,Asthma,None,0.66,Phase I,No,None
+P0786,25,Female,White,Heart Disease,Arthritis,0.57,Phase III,No,None
+P0787,57,Male,Black,Diabetes,Obesity,0.48,Phase III,No,None
+P0788,71,Male,White,None,Obesity,0.43,Phase II,No,None
+P0789,46,Female,White,Asthma,Arthritis,0.62,Phase II,No,None
+P0790,62,Male,Black,None,Obesity,0.96,Phase II,No,None
+P0791,44,Female,White,None,None,0.89,Phase II,Yes,Medical Advice
+P0792,56,Female,Black,Heart Disease,Obesity,0.65,Phase III,No,None
+P0793,64,Female,White,Cancer,Obesity,1,Phase I,No,None
+P0794,49,Male,Black,Hypertension,Arthritis,0.63,Phase III,No,None
+P0795,80,Male,Asian,None,Kidney Disease,1,Phase II,Yes,Lack of Improvement
+P0796,20,Female,Hispanic,Hypertension,Kidney Disease,1,Phase II,No,None
+P0797,33,Male,White,None,Obesity,0.84,Phase I,No,None
+P0798,71,Female,Hispanic,Hypertension,Obesity,0.61,Phase III,No,None
+P0799,22,Female,White,Cancer,Depression,0.68,Phase II,Yes,Logistical Issues
+P0800,34,Female,White,Diabetes,Depression,0.79,Phase I,Yes,Logistical Issues
+P0801,41,Female,Asian,Heart Disease,Obesity,0.48,Phase I,No,None
+P0802,72,Male,White,Hypertension,Depression,0.56,Phase II,No,None
+P0803,40,Female,Black,Cancer,Obesity,0.54,Phase II,Yes,Logistical Issues
+P0804,29,Male,Hispanic,Heart Disease,Kidney Disease,0.86,Phase II,Yes,Lost Interest
+P0805,62,Female,Hispanic,None,Depression,0.99,Phase I,No,None
+P0806,26,Female,White,Hypertension,Obesity,0.89,Phase II,Yes,Medical Advice
+P0807,48,Female,Hispanic,Hypertension,None,0.95,Phase II,No,None
+P0808,67,Female,Black,Diabetes,Depression,0.6,Phase II,No,None
+P0809,76,Female,White,Heart Disease,Kidney Disease,0.69,Phase I,No,None
+P0810,22,Female,Asian,Diabetes,None,0.7,Phase III,No,None
+P0811,54,Female,Hispanic,Hypertension,Arthritis,0.84,Phase III,Yes,Medical Advice
+P0812,62,Female,Hispanic,Diabetes,Kidney Disease,1,Phase III,No,None
+P0813,64,Male,Hispanic,Cancer,Kidney Disease,0.62,Phase I,No,None
+P0814,71,Female,Hispanic,Diabetes,Obesity,0.94,Phase III,No,None
+P0815,77,Male,Black,Heart Disease,Kidney Disease,1,Phase I,No,None
+P0816,22,Female,Asian,Hypertension,Arthritis,0.85,Phase II,No,None
+P0817,21,Female,Black,Asthma,Kidney Disease,0.68,Phase II,No,None
+P0818,70,Male,White,Heart Disease,Kidney Disease,0.58,Phase III,Yes,Lost Interest
+P0819,23,Female,Hispanic,Cancer,Obesity,0.54,Phase II,No,None
+P0820,65,Female,White,Diabetes,Kidney Disease,0.36,Phase II,No,None
+P0821,20,Female,Hispanic,Diabetes,Obesity,0.71,Phase III,No,None
+P0822,79,Female,Asian,Asthma,None,0.69,Phase I,No,None
+P0823,59,Female,Hispanic,Cancer,Arthritis,0.92,Phase I,No,None
+P0824,70,Male,Hispanic,Cancer,None,0.63,Phase III,No,None
+P0825,56,Female,Asian,None,Kidney Disease,0.72,Phase I,No,None
+P0826,24,Female,Black,Diabetes,Arthritis,0.81,Phase II,No,None
+P0827,71,Female,Asian,Asthma,None,0.85,Phase II,No,None
+P0828,62,Male,White,Hypertension,Kidney Disease,0.9,Phase I,No,None
+P0829,70,Female,Hispanic,Diabetes,Arthritis,0.79,Phase III,No,None
+P0830,30,Male,White,Heart Disease,Depression,0.49,Phase II,No,None
+P0831,70,Male,Asian,Diabetes,Kidney Disease,0.83,Phase I,No,None
+P0832,77,Female,Hispanic,Diabetes,Kidney Disease,0.62,Phase II,Yes,None
+P0833,55,Female,Black,Heart Disease,Obesity,1,Phase III,No,None
+P0834,65,Male,Black,Heart Disease,None,0.75,Phase II,No,None
+P0835,77,Female,Black,None,None,0.8,Phase I,No,None
+P0836,64,Male,White,Heart Disease,None,1,Phase III,No,None
+P0837,74,Female,Black,Heart Disease,Kidney Disease,0.9,Phase III,No,None
+P0838,76,Female,Black,Cancer,Kidney Disease,0.83,Phase II,No,None
+P0839,80,Female,Hispanic,Hypertension,Depression,0.72,Phase II,Yes,Medical Advice
+P0840,62,Female,Hispanic,Cancer,None,0.51,Phase II,Yes,None
+P0841,65,Female,Black,Hypertension,Depression,0.71,Phase III,No,None
+P0842,63,Female,Asian,None,Depression,0.58,Phase III,Yes,None
+P0843,80,Male,Black,Asthma,Arthritis,1,Phase III,No,None
+P0844,25,Female,Black,Heart Disease,None,0.83,Phase III,Yes,None
+P0845,63,Female,Black,Cancer,Kidney Disease,0.99,Phase I,No,None
+P0846,51,Male,White,Heart Disease,Depression,0.63,Phase I,Yes,None
+P0847,21,Male,Asian,Hypertension,Arthritis,0.59,Phase III,No,None
+P0848,34,Male,White,None,Arthritis,0.88,Phase I,No,None
+P0849,66,Female,White,Cancer,Kidney Disease,0.57,Phase I,No,None
+P0850,57,Female,Hispanic,Hypertension,None,0.66,Phase II,No,None
+P0851,33,Female,Asian,None,Obesity,1,Phase II,No,None
+P0852,42,Female,Asian,Asthma,Obesity,0.67,Phase I,No,None
+P0853,65,Female,Black,Asthma,Kidney Disease,0.47,Phase I,No,None
+P0854,76,Female,Asian,Asthma,None,0.4,Phase III,Yes,Medical Advice
+P0855,30,Female,Black,Cancer,Kidney Disease,0.44,Phase I,No,None
+P0856,80,Female,White,Hypertension,Depression,1,Phase III,Yes,Medical Advice
+P0857,25,Female,White,Heart Disease,Arthritis,0.64,Phase III,No,None
+P0858,34,Male,Black,Asthma,Arthritis,1,Phase I,Yes,Logistical Issues
+P0859,47,Female,Black,Diabetes,Depression,1,Phase II,No,None
+P0860,56,Male,Black,None,Arthritis,1,Phase II,No,None
+P0861,68,Female,Hispanic,Cancer,Obesity,0.95,Phase III,No,None
+P0862,38,Female,Black,Hypertension,None,0.87,Phase I,No,None
+P0863,68,Female,Black,Heart Disease,None,0.59,Phase III,Yes,Lost Interest
+P0864,23,Female,Black,Hypertension,Arthritis,0.75,Phase II,No,None
+P0865,41,Female,Black,Asthma,None,0.89,Phase II,No,None
+P0866,53,Female,White,Diabetes,Arthritis,0.94,Phase II,No,None
+P0867,33,Female,Hispanic,Asthma,Depression,0.52,Phase I,No,None
+P0868,61,Female,Hispanic,Diabetes,Kidney Disease,0.71,Phase II,No,None
+P0869,52,Female,Asian,Diabetes,None,0.73,Phase II,No,None
+P0870,50,Female,Hispanic,Heart Disease,Obesity,0.73,Phase II,No,None
+P0871,75,Female,Black,Cancer,None,0.55,Phase I,No,None
+P0872,78,Male,Black,Asthma,None,1,Phase I,No,None
+P0873,58,Male,Black,None,Depression,0.7,Phase III,No,None
+P0874,45,Male,Black,Asthma,Kidney Disease,0.56,Phase III,No,None
+P0875,70,Male,Black,Diabetes,Kidney Disease,1,Phase III,Yes,Logistical Issues
+P0876,20,Male,White,Diabetes,Depression,1,Phase II,No,None
+P0877,53,Male,Black,Hypertension,Arthritis,0.78,Phase II,No,None
+P0878,42,Female,Hispanic,Heart Disease,Arthritis,0.4,Phase I,No,None
+P0879,42,Female,White,Asthma,Obesity,0.66,Phase III,No,None
+P0880,64,Female,White,None,None,0.43,Phase I,No,None
+P0881,62,Male,Asian,Asthma,Obesity,0.85,Phase II,No,None
+P0882,68,Female,Asian,Asthma,Obesity,0.64,Phase II,No,None
+P0883,66,Female,Hispanic,Heart Disease,Obesity,0.74,Phase II,No,None
+P0884,28,Female,Black,Hypertension,Kidney Disease,1,Phase III,No,None
+P0885,36,Female,Black,Cancer,Arthritis,0.63,Phase I,No,None
+P0886,53,Female,Black,Diabetes,Obesity,0.84,Phase I,Yes,Medical Advice
+P0887,56,Female,Black,Asthma,Obesity,0.9,Phase II,No,None
+P0888,31,Female,Asian,Hypertension,Kidney Disease,1,Phase III,Yes,Medical Advice
+P0889,27,Male,Black,Hypertension,None,0.73,Phase II,No,None
+P0890,30,Male,Black,None,None,0.71,Phase I,Yes,Medical Advice
+P0891,47,Female,Hispanic,Diabetes,Arthritis,0.7,Phase III,No,None
+P0892,22,Female,White,Hypertension,None,0.82,Phase II,No,None
+P0893,78,Female,Asian,Hypertension,Depression,1,Phase I,Yes,Logistical Issues
+P0894,57,Male,Black,Cancer,Kidney Disease,0.7,Phase II,No,None
+P0895,39,Female,Asian,None,None,0.27,Phase I,No,None
+P0896,54,Female,Asian,Cancer,Kidney Disease,0.93,Phase I,No,None
+P0897,18,Female,Black,Hypertension,Kidney Disease,0.76,Phase II,No,None
+P0898,71,Female,Black,None,Arthritis,0.85,Phase II,Yes,Lost Interest
+P0899,46,Female,Asian,Heart Disease,None,0.44,Phase I,No,None
+P0900,29,Female,Hispanic,Diabetes,Arthritis,0.64,Phase I,No,None
+P0901,75,Female,Black,Cancer,Obesity,0.91,Phase III,Yes,Side Effects
+P0902,75,Male,Black,None,Obesity,0.5,Phase III,No,None
+P0903,55,Female,Black,Hypertension,Obesity,0.84,Phase III,No,None
+P0904,34,Female,Hispanic,Heart Disease,Depression,0.74,Phase II,No,None
+P0905,43,Male,Black,None,Arthritis,0.6,Phase I,No,None
+P0906,47,Female,Hispanic,Diabetes,Kidney Disease,0.59,Phase II,No,None
+P0907,50,Male,Black,Asthma,Depression,0.55,Phase III,No,None
+P0908,26,Female,Black,Hypertension,None,0.76,Phase III,No,None
+P0909,60,Male,Hispanic,Cancer,Obesity,0.79,Phase I,No,None
+P0910,66,Female,Black,Diabetes,Arthritis,0.68,Phase II,Yes,Lack of Improvement
+P0911,20,Female,Black,Asthma,Arthritis,0.54,Phase II,Yes,Lost Interest
+P0912,76,Female,White,Diabetes,Arthritis,0.17,Phase I,No,None
+P0913,63,Female,Asian,None,Arthritis,0.84,Phase III,No,None
+P0914,52,Female,Black,Heart Disease,Kidney Disease,0.93,Phase II,No,None
+P0915,55,Female,White,Asthma,Arthritis,0.87,Phase II,Yes,Lack of Improvement
+P0916,51,Female,Asian,Cancer,Kidney Disease,1,Phase II,No,None
+P0917,74,Female,White,Asthma,Depression,0.71,Phase II,Yes,Lack of Improvement
+P0918,32,Male,Black,None,Arthritis,1,Phase I,No,None
+P0919,27,Male,Black,Cancer,None,0.62,Phase III,Yes,Side Effects
+P0920,60,Male,Hispanic,Cancer,Obesity,0.59,Phase II,No,None
+P0921,61,Female,Hispanic,Hypertension,None,0.77,Phase I,Yes,None
+P0922,71,Female,White,Hypertension,Obesity,1,Phase I,No,None
+P0923,54,Female,Black,Hypertension,None,0.69,Phase I,No,None
+P0924,75,Female,Black,Diabetes,Depression,0.44,Phase II,No,None
+P0925,77,Male,Black,Heart Disease,None,0.93,Phase III,No,None
+P0926,58,Male,Asian,Diabetes,Depression,0.73,Phase II,No,None
+P0927,56,Female,Hispanic,Hypertension,Depression,0.81,Phase II,No,None
+P0928,56,Male,Black,Hypertension,None,0.6,Phase III,No,None
+P0929,50,Female,Black,None,Arthritis,0.77,Phase II,No,None
+P0930,56,Female,White,Hypertension,Kidney Disease,0.46,Phase II,No,None
+P0931,26,Male,White,Hypertension,None,1,Phase III,No,None
+P0932,61,Female,Black,Asthma,Obesity,0.97,Phase I,No,None
+P0933,48,Female,Hispanic,Diabetes,None,0.76,Phase III,Yes,Side Effects
+P0934,23,Female,Black,Asthma,None,0.92,Phase I,No,None
+P0935,75,Female,Hispanic,Asthma,Kidney Disease,0.62,Phase II,No,None
+P0936,73,Male,Black,Heart Disease,Depression,0.96,Phase II,No,None
+P0937,68,Female,Asian,Asthma,None,0.68,Phase I,Yes,Lost Interest
+P0938,26,Female,Hispanic,Hypertension,Obesity,0.67,Phase II,No,None
+P0939,56,Female,Hispanic,Cancer,Depression,0.56,Phase I,No,None
+P0940,63,Female,White,Asthma,None,0.83,Phase I,No,None
+P0941,51,Male,Hispanic,None,Depression,0.75,Phase III,No,None
+P0942,69,Female,Hispanic,Cancer,Obesity,1,Phase I,No,None
+P0943,45,Female,Asian,Cancer,Arthritis,0.54,Phase III,No,None
+P0944,45,Female,Asian,Asthma,Arthritis,0.84,Phase III,No,None
+P0945,43,Male,Hispanic,Asthma,None,0.99,Phase II,No,None
+P0946,29,Female,Black,Asthma,Kidney Disease,1,Phase II,No,None
+P0947,37,Female,Asian,None,Kidney Disease,0.79,Phase III,Yes,Lack of Improvement
+P0948,72,Female,White,None,Depression,0.68,Phase II,No,None
+P0949,68,Female,Black,Diabetes,Depression,0.78,Phase III,No,None
+P0950,43,Female,Black,Asthma,Obesity,1,Phase I,No,None
+P0951,42,Female,White,Diabetes,Depression,1,Phase II,No,None
+P0952,77,Female,Hispanic,Diabetes,Obesity,0.73,Phase II,No,None
+P0953,32,Female,White,Asthma,Obesity,1,Phase III,No,None
+P0954,42,Female,Black,None,None,0.75,Phase II,Yes,None
+P0955,79,Female,White,Hypertension,Kidney Disease,0.92,Phase II,Yes,Side Effects
+P0956,30,Female,Asian,Cancer,Depression,0.86,Phase I,Yes,Medical Advice
+P0957,50,Female,Black,Asthma,Depression,0.67,Phase III,No,None
+P0958,20,Female,Black,None,Obesity,0.57,Phase I,No,None
+P0959,23,Female,Hispanic,Cancer,Kidney Disease,0.99,Phase II,No,None
+P0960,55,Male,Black,Diabetes,Obesity,1,Phase I,No,None
+P0961,53,Female,Black,Asthma,Arthritis,0.83,Phase II,No,None
+P0962,79,Female,Black,Asthma,Depression,0.75,Phase II,Yes,Lost Interest
+P0963,54,Male,Asian,Hypertension,Kidney Disease,0.51,Phase III,No,None
+P0964,24,Female,White,Asthma,Arthritis,0.99,Phase II,Yes,Side Effects
+P0965,69,Female,Asian,Asthma,None,0.81,Phase II,Yes,None
+P0966,46,Female,Black,Heart Disease,Depression,0.7,Phase II,No,None
+P0967,79,Female,Hispanic,Asthma,Obesity,0.92,Phase II,No,None
+P0968,25,Female,White,Heart Disease,Depression,0.48,Phase III,No,None
+P0969,62,Male,Asian,Heart Disease,Arthritis,0.55,Phase III,Yes,Medical Advice
+P0970,18,Female,Asian,Hypertension,Arthritis,0.61,Phase I,No,None
+P0971,43,Female,Asian,Diabetes,None,0.85,Phase I,No,None
+P0972,48,Female,Asian,Hypertension,None,0.79,Phase II,No,None
+P0973,29,Female,Black,Heart Disease,Depression,0.88,Phase I,No,None
+P0974,65,Male,Asian,Hypertension,Depression,0.97,Phase I,No,None
+P0975,71,Male,Black,Cancer,Depression,0.88,Phase I,Yes,Side Effects
+P0976,76,Male,Hispanic,Asthma,Obesity,1,Phase III,No,None
+P0977,79,Male,Hispanic,Cancer,None,0.97,Phase II,No,None
+P0978,49,Female,Asian,Heart Disease,Depression,0.73,Phase III,No,None
+P0979,35,Female,Black,Asthma,Depression,0.64,Phase I,No,None
+P0980,51,Female,Hispanic,Asthma,Obesity,0.73,Phase III,No,None
+P0981,40,Female,Black,Heart Disease,Obesity,0.89,Phase III,No,None
+P0982,51,Female,Asian,None,Obesity,0.66,Phase I,No,None
+P0983,61,Male,Hispanic,Asthma,Obesity,0.9,Phase II,Yes,Logistical Issues
+P0984,57,Female,Black,Asthma,Arthritis,0.87,Phase I,No,None
+P0985,35,Female,Asian,Cancer,Arthritis,0.56,Phase I,No,None
+P0986,49,Female,Black,Heart Disease,Arthritis,0.97,Phase II,No,None
+P0987,72,Female,Asian,Heart Disease,Depression,0.82,Phase III,Yes,Lack of Improvement
+P0988,80,Female,Black,Diabetes,Arthritis,1,Phase I,Yes,Medical Advice
+P0989,45,Female,Black,Hypertension,Depression,0.75,Phase II,No,None
+P0990,69,Male,Black,Heart Disease,Kidney Disease,0.69,Phase I,No,None
+P0991,75,Female,Asian,Asthma,Arthritis,0.54,Phase II,No,None
+P0992,37,Female,Asian,Asthma,Obesity,0.54,Phase II,Yes,Side Effects
+P0993,62,Male,White,Hypertension,Arthritis,0.94,Phase II,No,None
+P0994,71,Male,White,Heart Disease,Arthritis,1,Phase II,Yes,Logistical Issues
+P0995,41,Female,Asian,Cancer,Arthritis,0.73,Phase I,No,None
+P0996,44,Male,Asian,None,None,0.72,Phase I,Yes,Medical Advice
+P0997,54,Female,Asian,Hypertension,Arthritis,0.76,Phase II,Yes,Logistical Issues
+P0998,61,Male,Hispanic,None,Kidney Disease,0.98,Phase I,No,None
+P0999,42,Male,Asian,Heart Disease,Depression,0.56,Phase I,Yes,None
+P1000,69,Female,Hispanic,None,None,0.8,Phase III,No,None
