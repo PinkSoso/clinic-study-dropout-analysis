@@ -38,7 +38,7 @@ The dataset used in this project contains clinical study records, patient demogr
 
 - **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn)
 - **MySQL** (for importing raw SQL data)
-- **Tableau/Power BI (Visualization tools)
+- **Tableau/Power BI** (Visualization tools)
 - **Jupyter Notebook / VSCode** (for scripting and analysis)
 - **GitHub** (for version control and collaboration)
 
