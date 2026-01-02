@@ -38,14 +38,14 @@ The dataset used in this project contains clinical study records, patient demogr
 
 - **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn)
 - **MySQL** (for importing raw SQL data)
-- **DB Browser / MySQL Workbench** (for SQL data inspection)
+- **Tableau/Power BI (Visualization tools)
 - **Jupyter Notebook / VSCode** (for scripting and analysis)
-- **Git & GitHub** (for version control and collaboration)
+- **GitHub** (for version control and collaboration)
 
 ## 📊 Planned Steps
 
-1. Import and clean the dataset.
-2. Perform **exploratory data analysis (EDA)** on dropout behavior.
+1. Import, clean and prepare the dataset.
+2. Perform **exploratory data analysis** on dropout behavior.
 3. Build **visualizations** to identify patterns.
 4. Train a **machine learning model** to predict dropout risk.
 5. Present findings with key takeaways and retention strategies.
