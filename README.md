@@ -1,4 +1,5 @@
-# 💡 Leveraging AI for Faster and Efficient Clinical Trials with Focus on High Drop Rate - Healthcare Industry
+# 🧪 Clinical Trial Dropout Analysis
+Leveraging Data & AI to Improve Participant Retention - Healthcare Industry
 
 ## 📘 Executive Summary
 
@@ -54,10 +55,7 @@ With this project, we aim to contribute towards smarter, AI-assisted clinical re
 
 
 
-## 📊 Planned Steps
+## 📊 Next Steps
 
-1. Import, clean and prepare the dataset.
-2. Perform **exploratory data analysis** on dropout behavior.
-3. Build **visualizations** to identify patterns.
-4. Train a **machine learning model** to predict dropout risk.
-5. Present findings with key takeaways and retention strategies.
+1. Train a **machine learning model** to predict dropout risk.
+2. Present findings with key takeaways and retention strategies.
