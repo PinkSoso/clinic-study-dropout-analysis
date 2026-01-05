@@ -15,7 +15,7 @@ Based on these insights, I proposed data-driven and AI-supported recommendations
 
 ## 🎯 Business Problem
 Clinical trials are a crucial step in the development of new drugs and medical treatments. However, one of the most significant challenges faced by researchers is the **high dropout rate** of participants before trial completion. This not only **delays research timelines**, but also **increases costs** and reduces the reliability of results.
-High dropout rates is a real problem as it lead to : Delayed trial timelines, Increased operational and recruitment costs, Reduced statistical reliability of trial outcomes, Slower access to life-saving treatments
+High dropout rates is a real problem as it lead to : Delayed trial timelines, Increased operational and recruitment costs, Reduced statistical reliability of trial outcomes, Slower access to life-saving treatments.
 
 The aim here is to support clinical research teams by using data and AI to:
 - Understand when and why participants drop out,
@@ -40,7 +40,7 @@ With this project, we aim to contribute towards smarter, AI-assisted clinical re
  ## 📌 Skills
   - SQL : CTEs, Joins, Aggregate functions
   - Power BI : Dax, Writing Functions, ETL, Caluclated Columns, Data Visualization, Data Modelling
-  - Python : Pandas, Matlplotlib, Numpy, Wrtiign Functions, Building a product funnel, Statistics
+  - Python : Pandas, Matlplotlib, Numpy, Writing Functions, Statistics
  
 
 ## 🗂️ Results & Business Recommendation
