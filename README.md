@@ -57,6 +57,7 @@ How can data-driven insights help clinical teams allocate resources more efficie
 
 ## 🗂️ Results & Business Recommendation
 
+<img width="919" height="527" alt="image" src="https://github.com/user-attachments/assets/0fc426a4-f2db-446b-8a16-97c46f7127c3" />
 
 
 ## 📊 Next Steps
