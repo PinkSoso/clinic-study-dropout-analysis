@@ -50,9 +50,9 @@ How can data-driven insights help clinical teams allocate resources more efficie
 - **GitHub** for collaboration
 
  ## 📌 Skills
-  - SQL : CTEs, Joins, Aggregate functions
-  - Power BI : Dax, Writing Functions, ETL, Caluclated Columns, Data Visualization, Data Modelling
-  - Python : Pandas, Matlplotlib, Numpy, Writing Functions, Statistics
+  - **SQL** : CTEs, Joins, Aggregate functions
+  - **Power BI** : Dax, Writing Functions, ETL, Caluclated Columns, Data Visualization, Data Modelling
+  - **Python** : Pandas, Matlplotlib, Numpy, Writing Functions, Statistics
  
 
 ## 🗂️ Results & Business Recommendation
