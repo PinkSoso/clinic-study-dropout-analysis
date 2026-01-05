@@ -3,10 +3,15 @@ Leveraging Data & AI to Improve Participant Retention - Healthcare Industry
 
 ## 📘 Executive Summary
 
-Using SQL, Python and Power BI i pulled orders status data from the database and created a dashboard to track though the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, i recommend that the product team impleamnets a few adjustments that will lead to higher conversion 
-1. 
-2.
-3.
+In this project, I analyzed clinical trial participant data using **SQL, Python and Power BI** to understand and reduce participant dropout rates, a major challenge in clinical research.
+I built an end-to-end analysis pipeline:
+
+1. Extracted and structured trial data using **SQL**,
+2. Explored participant behavior and dropout patterns using **Python**,
+3. Designed interactive dashboards in **Power BI** to monitor key dropout indicators.
+
+The analysis revealed critical dropout points during the trial lifecycle and identified high-risk participant profiles.
+Based on these insights, I proposed data-driven and AI-supported recommendations to improve participant engagement and reduce attrition, ultimately leading to faster, more reliable and cost-effective clinical trials.
 
 ## 🎯 Business Problem
 Clinical trials are a crucial step in the development of new drugs and medical treatments. However, one of the most significant challenges faced by researchers is the **high dropout rate** of participants before trial completion. This not only **delays research timelines**, but also **increases costs** and reduces the reliability of results.
