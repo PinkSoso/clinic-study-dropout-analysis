@@ -24,15 +24,13 @@ The aim here is to support clinical research teams by using data and AI to:
 
 With this project, we aim to contribute towards smarter, AI-assisted clinical research practices.
 
-## 🧠 Key Questions
+## 🧠 Analytical Approach & Methodology
 
 - When and why do participants typically drop out of clinical trials?
 - Are there any demographic or behavioral patterns behind high dropout rates?
 - Can we build a **predictive model** to flag participants at risk of dropping out?
 - What kind of interventions can reduce dropout rates?
 
-
-## 🛠️ Methodology
 
 - **SQL** query that extracts cleans and transforms the data from the database
 - Build a dashboard in **Power BI** that tracks the number of oreders in each status
