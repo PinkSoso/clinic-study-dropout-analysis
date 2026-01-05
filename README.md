@@ -1,7 +1,13 @@
-# 💡 Leveraging AI for Faster and Efficient Clinical Trials with Focus on High Drop Rate - HEALTHCARE INDUSTRY
+# 💡 Leveraging AI for Faster and Efficient Clinical Trials with Focus on High Drop Rate - Healthcare Industry
 
-## 📘 Project Summary
+## 📘 Executive Summary
 
+Usibg SQL, Python and power BI i pulled orders status data from the database and created a dashboard to track though the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, i recommend that the product team impleamnets a few adjustments that will lead to higher conversion 
+1. 
+2.
+3.
+
+## 🎯 Business Problem
 Clinical trials are a crucial step in the development of new drugs and medical treatments. However, one of the most significant challenges faced by researchers is the **high dropout rate** of participants before trial completion. This not only **delays research timelines**, but also **increases costs** and reduces the reliability of results.
 
 In this project, we explore how **AI and data analysis** can be used to:
@@ -9,11 +15,19 @@ In this project, we explore how **AI and data analysis** can be used to:
 - Predict potential dropouts early in the trial,
 - Suggest proactive strategies to improve retention rates.
 
-## 🎯 Objective
+Our mission
 
 - **Analyze clinical trial data** to study participant behavior and identify common dropout points.
 - Use **data-driven insights** to suggest ways to improve participant engagement.
 - Explore **machine learning models** to predict dropout risks during a study.
+
+WHY ?
+- Improving participant retention in clinical trials has real-world impact:
+- Faster and more cost-effective trials
+- More reliable results
+- Quicker access to life-saving treatments
+
+With this project, we aim to contribute towards smarter, AI-assisted clinical research practices.
 
 ## 🧠 Key Questions
 
@@ -22,25 +36,23 @@ In this project, we explore how **AI and data analysis** can be used to:
 - Can we build a **predictive model** to flag participants at risk of dropping out?
 - What kind of interventions can reduce dropout rates?
 
-## 🗂️ Dataset
 
-The dataset used in this project contains clinical study records, patient demographic data, study timelines, and retention status. It includes anonymized details such as:
-- Patient ID
-- Enrollment and withdrawal dates
-- Study phase
-- Dropout reason
-- Age, gender, and region
+## 🛠️ Methodology
 
-📥 Source: *Clinic Analysis SQL Dataset* (via Kaggle)  
-🗃️ Format: `.sql` (converted into `.csv` for analysis)
+- **SQL** query that extracts cleans and transforms the data from the database
+- Build a dashboard in **Power BI** that tracks the number of oreders in each status
+- Conducted a more detailed drop out analysis in **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn) to  stimulate changes and determine the best areas of opportunity
+- **GitHub** for collaboration
 
-## 🛠️ Tools & Technologies
+ ## 📌 Skills
+  - SQL : CTEs, Joins, Aggregate functions
+  - Power BI : Dax, Writing Functions, ETL, Caluclated Columns, Data Visualization, Data Modelling
+  - Python : Pandas, Matlplotlib, Numpy, Wrtiign Functions, Building a product funnel, Statistics
+ 
 
-- **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn)
-- **MySQL** (for importing raw SQL data)
-- **Tableau/Power BI** (Visualization tools)
-- **Jupyter Notebook / VSCode** (for scripting and analysis)
-- **GitHub** (for version control and collaboration)
+## 🗂️ Results & Business Recommendation
+
+
 
 ## 📊 Planned Steps
 
@@ -49,19 +61,3 @@ The dataset used in this project contains clinical study records, patient demogr
 3. Build **visualizations** to identify patterns.
 4. Train a **machine learning model** to predict dropout risk.
 5. Present findings with key takeaways and retention strategies.
-
-## 📌 Why This Matters
-
-Improving participant retention in clinical trials has real-world impact:
-- Faster and more cost-effective trials
-- More reliable results
-- Quicker access to life-saving treatments
-
-With this project, we aim to contribute towards smarter, AI-assisted clinical research practices.
-
-Project Main Files:
-ClinicalTrialsModel.ipynb
-
-## 🚀 Author
-
-**Sonia/Dipti/Mary**
