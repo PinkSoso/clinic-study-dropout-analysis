@@ -2,7 +2,7 @@
 
 ## 📘 Executive Summary
 
-Usibg SQL, Python and power BI i pulled orders status data from the database and created a dashboard to track though the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, i recommend that the product team impleamnets a few adjustments that will lead to higher conversion 
+Using SQL, Python and Power BI i pulled orders status data from the database and created a dashboard to track though the funnel. After identifying that the largest revenue opportunities are to increase user interaction rate and completed login attempts, i recommend that the product team impleamnets a few adjustments that will lead to higher conversion 
 1. 
 2.
 3.
