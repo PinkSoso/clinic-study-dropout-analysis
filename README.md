@@ -22,16 +22,28 @@ The aim here is to support clinical research teams by using data and AI to:
 - Detect early warning signals of dropout,
 - Enable proactive interventions to improve retention.
 
-With this project, we aim to contribute towards smarter, AI-assisted clinical research practices.
+Despite the strategic importance of clinical trials, participant dropout remains one of the main causes of delays, cost overruns, and unreliable outcomes.
+However, dropout is often treated as an unavoidable risk rather than a data-driven problem that can be anticipated and mitigated.
+
+This project aims to transform dropout from a reactive issue into a proactively managed business risk by answering the following key questions:
+
+🔍 Understanding the dropout problem
+At which stages of a clinical trial do participants most frequently drop out, and what are the underlying drivers of these dropouts?
+Which behavioral or engagement signals act as early warning indicators of disengagement before a participant leaves the trial?
+
+👥 Identifying high-risk profiles
+Are there identifiable demographic or behavioral patterns associated with higher dropout rates?
+Can participants be segmented into risk profiles to better prioritize retention efforts?
+
+🤖 Predicting and preventing dropout
+Can we leverage predictive analytics and machine learning to flag participants at high risk of dropout early in the trial lifecycle?
+How early can risk be detected while still allowing meaningful intervention?
+
+🚀 Driving actionable interventions
+Which targeted interventions (communication, follow-ups, incentives, trial design adjustments) are most effective in reducing dropout rates?
+How can data-driven insights help clinical teams allocate resources more efficiently and improve trial completion rates?
 
 ## 🧠 Analytical Approach & Methodology
-
-- When and why do participants typically drop out of clinical trials?
-- Are there any demographic or behavioral patterns behind high dropout rates?
-- Can we build a **predictive model** to flag participants at risk of dropping out?
-- What kind of interventions can reduce dropout rates?
-
-
 - **SQL** query that extracts cleans and transforms the data from the database
 - Build a dashboard in **Power BI** that tracks the number of oreders in each status
 - Conducted a more detailed drop out analysis in **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn) to  stimulate changes and determine the best areas of opportunity
