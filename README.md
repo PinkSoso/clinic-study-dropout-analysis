@@ -15,23 +15,12 @@ Based on these insights, I proposed data-driven and AI-supported recommendations
 
 ## 🎯 Business Problem
 Clinical trials are a crucial step in the development of new drugs and medical treatments. However, one of the most significant challenges faced by researchers is the **high dropout rate** of participants before trial completion. This not only **delays research timelines**, but also **increases costs** and reduces the reliability of results.
+High dropout rates is a real problem as it lead to : Delayed trial timelines, Increased operational and recruitment costs, Reduced statistical reliability of trial outcomes, Slower access to life-saving treatments
 
-In this project, we explore how **AI and data analysis** can be used to:
-- Identify patterns and reasons for participant dropout,
-- Predict potential dropouts early in the trial,
-- Suggest proactive strategies to improve retention rates.
-
-Our mission
-
-- **Analyze clinical trial data** to study participant behavior and identify common dropout points.
-- Use **data-driven insights** to suggest ways to improve participant engagement.
-- Explore **machine learning models** to predict dropout risks during a study.
-
-WHY ?
-- Improving participant retention in clinical trials has real-world impact:
-- Faster and more cost-effective trials
-- More reliable results
-- Quicker access to life-saving treatments
+The aim here is to support clinical research teams by using data and AI to:
+- Understand when and why participants drop out,
+- Detect early warning signals of dropout,
+- Enable proactive interventions to improve retention.
 
 With this project, we aim to contribute towards smarter, AI-assisted clinical research practices.
 
