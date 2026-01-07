@@ -27,19 +27,19 @@ However, dropout is often treated as an unavoidable risk rather than a data-driv
 
 This project aims to transform dropout from a reactive issue into a proactively managed business risk by answering the following key questions:
 
-🔍 Understanding the dropout problem
+1. Understanding the dropout problem
 At which stages of a clinical trial do participants most frequently drop out, and what are the underlying drivers of these dropouts?
 Which behavioral or engagement signals act as early warning indicators of disengagement before a participant leaves the trial?
 
-👥 Identifying high-risk profiles
+2. Identifying high-risk profiles
 Are there identifiable demographic or behavioral patterns associated with higher dropout rates?
 Can participants be segmented into risk profiles to better prioritize retention efforts?
 
-🤖 Predicting and preventing dropout
+3. Predicting and preventing dropout
 Can we leverage predictive analytics and machine learning to flag participants at high risk of dropout early in the trial lifecycle?
 How early can risk be detected while still allowing meaningful intervention?
 
-🚀 Driving actionable interventions
+4. Driving actionable interventions
 Which targeted interventions (communication, follow-ups, incentives, trial design adjustments) are most effective in reducing dropout rates?
 How can data-driven insights help clinical teams allocate resources more efficiently and improve trial completion rates?
 
