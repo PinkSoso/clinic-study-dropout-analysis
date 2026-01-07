@@ -61,10 +61,10 @@ The predictive model successfully processed and analyzed over 1,000 clinical tri
 
 
 Exploratory analyses highlighted that participant engagement variables (such as adherence scores, health condition, and trial phase) were among the most influential predictors of retention. The class imbalance visualized through the dropout distribution pie chart confirmed that most participants remained in trials, further explaining the low recall for dropout cases.
-<img width="919" height="527" alt="image" src="https://github.com/user-attachments/assets/0fc426a4-f2db-446b-8a16-97c46f7127c3" />
+<img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/205765d5-a12e-4839-bd3e-12f3ce6f0553" />
 
 The feature importance chart revealed that previous adherence, visit frequency, and health-related variables had the highest contribution to prediction, providing actionable insights for clinical teams.
-<img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/205765d5-a12e-4839-bd3e-12f3ce6f0553" />
+<img width="919" height="527" alt="image" src="https://github.com/user-attachments/assets/0fc426a4-f2db-446b-8a16-97c46f7127c3" />
 
 Based on these findings, key recommendations include:
 
