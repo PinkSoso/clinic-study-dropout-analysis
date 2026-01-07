@@ -44,17 +44,16 @@ Which targeted interventions (communication, follow-ups, incentives, trial desig
 How can data-driven insights help clinical teams allocate resources more efficiently and improve trial completion rates?
 
 ## 🧠 Analytical Approach & Methodology
-- **SQL** query that extracts cleans and transforms the data from the database
-- Build a dashboard in **Power BI** that tracks the number of oreders in each status
-- Conducted a more detailed drop out analysis in **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn) to  stimulate changes and determine the best areas of opportunity
-- **GitHub** for collaboration
+- Wrote **SQL** queries to extract, clean, and transform raw data from the clinical database for comprehensive dropout analysis.​
+- Built a **Power BI** dashboard to monitor patient appointments and dropout rates across key stages of the clinical journey, helping to pinpoint where and when patients are most likely to discontinue treatment.
+- Conducted in-depth dropout analysis using **Python** (Pandas, Matplotlib, Seaborn, Scikit-learn) to identify risk factors, simulate improvement scenarios, and prioritize high-impact intervention areas​
+- Leveraged **GitHub** for code versioning, project documentation, and seamless collaboration throughout the case study
 
  ## 📌 Skills
   - **SQL** : CTEs, Joins, Aggregate functions
   - **Power BI** : Dax, Writing Functions, ETL, Caluclated Columns, Data Visualization, Data Modelling
   - **Python** : Pandas, Matlplotlib, Numpy, Writing Functions, Statistics
  
-
 ## 🗂️ Results & Business Recommendation
 The predictive model successfully processed and analyzed over 1,000 clinical trial records to identify key factors influencing participant dropout. Using a Random Forest Classifier, the model achieved an overall accuracy of 70%, with strong recall for non-dropout participants but limited sensitivity (4%) for actual dropouts — indicating a need for better data balance or feature signal improvement.
 
