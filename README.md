@@ -64,15 +64,6 @@ Exploratory analyses highlighted that participant engagement variables (such as 
 The feature importance chart revealed that previous adherence, visit frequency, and health-related variables had the highest contribution to prediction, providing actionable insights for clinical teams.
 <img width="919" height="527" alt="image" src="https://github.com/user-attachments/assets/0fc426a4-f2db-446b-8a16-97c46f7127c3" />
 
-Based on these findings, key recommendations include:
-
-    Data improvement: Collect additional behavioral or engagement data points (e.g., satisfaction, side-effect severity) to enhance dropout prediction.
-    Model refinement: Apply class balancing techniques (SMOTE, weighting) and test alternative models (XGBoost, Gradient Boosting) to improve dropout recall.
-    Operational use: Integrate the model into a dashboard for early risk detection, allowing trial managers to trigger personalized interventions and improve retention efficiency.
-
-These insights position dropout management as a data-driven, proactive process, helping clinical teams optimize resources, reduce delays, and ultimately deliver more reliable trial outcomes.
-
-
 ## 📊 Next Steps
 
 1. Train a **machine learning model** to predict dropout risk.
