@@ -57,8 +57,6 @@ How can data-driven insights help clinical teams allocate resources more efficie
 
 ## 🗂️ Results & Business Recommendation
 The predictive model successfully processed and analyzed over 1,000 clinical trial records to identify key factors influencing participant dropout. Using a Random Forest Classifier, the model achieved an overall accuracy of 70%, with strong recall for non-dropout participants but limited sensitivity (4%) for actual dropouts — indicating a need for better data balance or feature signal improvement.
-<img width="449" height="188" alt="image" src="https://github.com/user-attachments/assets/761f525a-3da8-4d88-b414-549d2d851e03" />
-
 
 Exploratory analyses highlighted that participant engagement variables (such as adherence scores, health condition, and trial phase) were among the most influential predictors of retention. The class imbalance visualized through the dropout distribution pie chart confirmed that most participants remained in trials, further explaining the low recall for dropout cases.
 <img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/205765d5-a12e-4839-bd3e-12f3ce6f0553" />
