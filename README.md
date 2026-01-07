@@ -64,6 +64,7 @@ Exploratory analyses highlighted that participant engagement variables (such as 
 <img width="919" height="527" alt="image" src="https://github.com/user-attachments/assets/0fc426a4-f2db-446b-8a16-97c46f7127c3" />
 
 The feature importance chart revealed that previous adherence, visit frequency, and health-related variables had the highest contribution to prediction, providing actionable insights for clinical teams.
+<img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/205765d5-a12e-4839-bd3e-12f3ce6f0553" />
 
 Based on these findings, key recommendations include:
 
