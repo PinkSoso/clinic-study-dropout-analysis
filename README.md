@@ -4,19 +4,17 @@ Exploiter la data & l’IA pour réduire l’abandon des participants – Indust
 ## 📘 Préambule
 
 Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
-
 Rôle : Data Analyst
-
 Outils : SQL + Python + Power BI
    
 Objectifs :
        Comprendre où, quand et pourquoi les patients quittent l’étude, Identifier les profils à risque et les signaux d’alerte et proposer des actions concrètes pour améliorer la rétention.
 
 Résultats clés :
-        Identification des phases les plus critiques en termes d’abandon
-        Mise en évidence de profils et comportements à haut risque
-        Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
-        Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
+        1. Identification des phases les plus critiques en termes d’abandon
+        2. Mise en évidence de profils et comportements à haut risque
+        3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
+        4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
 ## 📘 Résumé
 
