@@ -20,7 +20,7 @@ Résultats clés :
         3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
         4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
-## 📘 Explication du Projet
+## 🔍 Explication du Projet
 
 Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants, un enjeu majeur en recherche clinique.
 J’ai construit une pipeline analytique de bout en bout :
