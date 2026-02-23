@@ -33,55 +33,41 @@ L’analyse a permis d’identifier des moments critiques dans le parcours, des 
 
 Les essais cliniques sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont fortement pénalisés par les abandons de participants. Un taux de dropout élevé entraîne :
 
-    des retards dans les calendriers d’étude,
-
-    une augmentation des coûts opérationnels et de recrutement,
-
-    une baisse de la puissance statistique et de la fiabilité des résultats,
-
-    un accès plus lent aux traitements pour les patients.
+des retards dans les calendriers d’étude,
+une augmentation des coûts opérationnels et de recrutement,
+une baisse de la puissance statistique et de la fiabilité des résultats,
+un accès plus lent aux traitements pour les patients.
 
 L’objectif du projet est de soutenir les équipes de recherche clinique en utilisant la data et l’IA pour :
 
-    comprendre quand et pourquoi les participants abandonnent,
-
-    détecter les signaux précoces d’un risque de dropout,
-
-    permettre des interventions proactives pour améliorer la rétention.
+   comprendre quand et pourquoi les participants abandonnent,
+   détecter les signaux précoces d’un risque de dropout,
+   permettre des interventions proactives pour améliorer la rétention.
 
 Le projet cherche ainsi à transformer le dropout :
 
-    d’un risque subi et réactif,
-
-    en un risque métier piloté grâce aux données.
+   d’un risque subi et réactif,
+   en un risque métier piloté grâce aux données.
 
 Questions clés adressées :
 
-    Compréhension du dropout
-
+   Compréhension du dropout
         À quelles étapes du protocole les abandons sont-ils les plus fréquents ?
-
         Quels sont les facteurs principaux (comportement, santé, design de l’essai) associés à ces abandons ?
-
-    Identification des profils à risque
-
+    
+   Identification des profils à risque
         Quels profils démographiques ou comportementaux présentent des taux d’abandon plus élevés ?
-
         Peut-on segmenter les participants en profils de risque pour mieux cibler les efforts de rétention ?
 
-    Prédiction & prévention
+   Prédiction & prévention
+      Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
+      À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?
 
-        Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
+   Interventions actionnables
+      Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
+      Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?
 
-        À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?
-
-    Interventions actionnables
-
-        Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
-
-        Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?
-
-🧠 Approche analytique & méthodologie
+## 🧠 Approche analytique & méthodologie
 🔄 Workflow du projet
 
     Compréhension métier
