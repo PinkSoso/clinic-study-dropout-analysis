@@ -7,10 +7,10 @@ Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, e
 Rôle : Data Analyst
 
 Outils :
-   *SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.
-   Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.
-   Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.
-   Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.*
+*SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.
+Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.
+Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.
+Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.*
    
 Objectifs :
 Comprendre où, quand et pourquoi les patients quittent l’étude en cours, 
@@ -53,19 +53,19 @@ Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un 
 
 Cela m'amène donc à la refléxion suivante quant aux questions clés que je me suis posé en tant que Data Analyst concernant:
 
-   1 - La compréhension du dropout
+   1 - La compréhension du dropout :
         À quelles étapes du protocole les abandons sont-ils les plus fréquents ?
         Quels sont les facteurs principaux (comportement, santé, design de l’essai) associés à ces abandons ?
     
-   2- L'identification des profils à risque
+   2- L'identification des profils à risque :
         Quels profils démographiques ou comportementaux présentent des taux d’abandon plus élevés ?
         Peut-on segmenter les participants en profils de risque pour mieux cibler les efforts de rétention ?
 
-   3 - La prédiction & la prévention
+   3 - La prédiction & la prévention :
       Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
       À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?
 
-   4- Les interventions possible
+   4- Les interventions possible :
       Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
       Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?
 
