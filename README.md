@@ -1,13 +1,18 @@
 # 🧪 Analyse du taux d'abandon au sein des essais cliniques
 Exploiter la data & l’IA pour réduire l’abandon des participants – Industrie de la santé
 
-## 📘 Préambule
+## 📘 Résumé
 
-Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?                                                                                                                Rôle : Data Analyst
+Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?                                                                                                                
+
+Rôle : Data Analyst
+
 Outils : SQL + Python + Power BI
    
 Objectifs :
-       Comprendre où, quand et pourquoi les patients quittent l’étude, Identifier les profils à risque et les signaux d’alerte et proposer des actions concrètes pour améliorer la rétention.
+Comprendre où, quand et pourquoi les patients quittent l’étude, 
+Identifier les profils à risque et les signaux d’alerte,
+proposer des actions concrètes pour améliorer la rétention.
 
 Résultats clés :
         1. Identification des phases les plus critiques en termes d’abandon
@@ -15,12 +20,12 @@ Résultats clés :
         3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
         4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
-## 📘 Résumé
+## 📘 Explication du Projet
 
 Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants, un enjeu majeur en recherche clinique.
 J’ai construit une pipeline analytique de bout en bout :
 
-  extraction et structuration des données d’essais sous SQL,
+  Extraction et structuration des données d’essais sous SQL,
   exploration des comportements des participants et des patterns de dropout sous Python,
   conception de dashboards Power BI pour suivre les indicateurs clés d’abandon.
 
@@ -28,82 +33,68 @@ L’analyse a permis d’identifier des moments critiques dans le parcours, des 
 
 ## 🎯 Problème métier
 
-Les essais cliniques sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont fortement pénalisés par les abandons de participants. Un taux de dropout élevé entraîne :
+Grâce aux multiples échanges avec des experts j'ai compris que les essais cliniques sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont également fortement pénalisés par les abandons de participants. Ma comprehension du problème m'amène a penser qu'un taux de dropout élevé entraîne :
 
 des retards dans les calendriers d’étude,
 une augmentation des coûts opérationnels et de recrutement,
 une baisse de la puissance statistique et de la fiabilité des résultats,
 un accès plus lent aux traitements pour les patients.
 
-L’objectif du projet est de soutenir les équipes de recherche clinique en utilisant la data et l’IA pour :
+L’objectif de mon projet ici est de soutenir les équipes de recherche clinique en utilisant mon expertise en data et IA pour :
 
-   comprendre quand et pourquoi les participants abandonnent,
+   comprendre quand et pourquoi les participants abandonnent ?
    détecter les signaux précoces d’un risque de dropout,
-   permettre des interventions proactives pour améliorer la rétention.
+   permettre des interventions proactives pour améliorer la rétention par la suite.
 
-Le projet cherche ainsi à transformer le dropout :
+Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un risque métier piloté et maitrisé grâce aux données.
 
-   d’un risque subi et réactif,
-   en un risque métier piloté grâce aux données.
+Cela m'amène donc à la refléxion suiva,te quant aux questions clés que je me suis posé en tant que Data Analyst :
 
-Questions clés adressées :
-
-   Compréhension du dropout
+   1 - La compréhension du dropout
         À quelles étapes du protocole les abandons sont-ils les plus fréquents ?
         Quels sont les facteurs principaux (comportement, santé, design de l’essai) associés à ces abandons ?
     
-   Identification des profils à risque
+   2- L'identification des profils à risque
         Quels profils démographiques ou comportementaux présentent des taux d’abandon plus élevés ?
         Peut-on segmenter les participants en profils de risque pour mieux cibler les efforts de rétention ?
 
-   Prédiction & prévention
+   3 - La prédiction & la prévention
       Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
       À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?
 
-   Interventions actionnables
+   4- Les interventions possible
       Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
       Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?
 
 ## 🧠 Approche analytique & méthodologie
 🔄 Workflow du projet
 
-    Compréhension métier
+Compréhension métier
 
-        Définition du dropout dans le contexte clinique (participant qui ne va pas au terme de l’essai).
+   Définition du dropout dans le contexte clinique (participant qui ne va pas jusqu'au bout de l’essai clinique).
+   Formalisation des questions avec un angle business : impact sur coûts, délais, qualité scientifique.
 
-        Formalisation des questions avec un angle business : impact sur coûts, délais, qualité scientifique.
+   Extraction & nettoyage (SQL)
 
-    Extraction & nettoyage (SQL)
+   Extraction de données à partir de plusieurs tables relationnelles (patients, visites, traitements, centres, événements).
+   Jointures, CTE, agrégations pour reconstruire un dataset patient-level.
+   Gestion des valeurs manquantes, des statuts incohérents et des doublons pour fiabiliser les indicateurs.
 
-        Extraction de données à partir de plusieurs tables relationnelles (patients, visites, traitements, centres, événements).
+   Analyse exploratoire & modélisation (Python)
+      Analyses exploratoires des taux de dropout par phase, par centre, par profil patient (Pandas, Matplotlib, Seaborn).
+      Création de nouvelles features (adhérence, fréquence de visites, variables de santé).
+      Entraînement d’un modèle de classification (Random Forest – Scikit-learn - Pandas) pour prédire le risque de dropout.
 
-        Jointures, CTE, agrégations pour reconstruire un dataset patient-level.
-
-        Gestion des valeurs manquantes, des statuts incohérents et des doublons pour fiabiliser les indicateurs.
-
-    Analyse exploratoire & modélisation (Python)
-
-        Analyses exploratoires des taux de dropout par phase, par centre, par profil patient (Pandas, Matplotlib, Seaborn).
-
-        Création de nouvelles features (adhérence, fréquence de visites, variables de santé).
-
-        Entraînement d’un modèle de classification (Random Forest – Scikit-learn) pour prédire le risque de dropout.
-
-    Business Intelligence & data storytelling (Power BI)
-
-        Construction d’un dashboard pour suivre les KPI de dropout : taux par phase, par centre, par segment, évolution temporelle.
-
-        Mise à disposition d’une vue opérationnelle pour les équipes cliniques afin de monitorer la rétention et prioriser les actions.
+   Business Intelligence & data storytelling (Power BI)
+      Construction d’un dashboard pour suivre les KPI de dropout : taux par phase, par centre, par segment, évolution temporelle.
+      Mise à disposition d’une vue opérationnelle pour les équipes cliniques afin de monitorer la rétention et prioriser les actions.
 
 🧰 Compétences mobilisées
 
-    SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.
-
-    Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.
-
-    Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.
-
-    Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.
+   SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.
+   Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.
+   Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.
+   Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.
 
 🗂️ Résultats & recommandations métier
 
