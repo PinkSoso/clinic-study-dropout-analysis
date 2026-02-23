@@ -1,4 +1,4 @@
-🧪 Clinical Trial Dropout Analysis
+# 🧪 Analyse du taux d'abandon au sein des essais cliniques
 
 Exploiter la data & l’IA pour réduire l’abandon des participants – Industrie de la santé
 🔍 En un coup d’œil (pour recruteurs)
