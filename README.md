@@ -1,30 +1,22 @@
 # 🧪 Analyse du taux d'abandon au sein des essais cliniques
-
 Exploiter la data & l’IA pour réduire l’abandon des participants – Industrie de la santé
-🔍 En un coup d’œil (pour recruteurs)
 
-    Secteur : Santé / essais cliniques
+## 📘 Sommaire
 
     Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
-
-    Rôle : Data Analyst de bout en bout (SQL + Python + Power BI)
-
+    Rôle : Data Analyst
+    Outils : SQL + Python + Power BI
+   
     Objectifs :
 
         Comprendre où, quand et pourquoi les patients quittent l’étude
-
         Identifier les profils à risque et les signaux d’alerte
-
         Proposer des actions concrètes pour améliorer la rétention
 
     Résultats clés :
-
         Identification des phases les plus critiques en termes d’abandon
-
         Mise en évidence de profils et comportements à haut risque
-
         Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
-
         Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
 📘 Executive Summary
