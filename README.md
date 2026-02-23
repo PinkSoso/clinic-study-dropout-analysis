@@ -1,38 +1,35 @@
 # 🧪 Analyse du taux d'abandon au sein des essais cliniques
 Exploiter la data & l’IA pour réduire l’abandon des participants – Industrie de la santé
 
-## 📘 Sommaire
+## 📘 Préambule
 
-    Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
-    Rôle : Data Analyst
-    Outils : SQL + Python + Power BI
+Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
+Rôle : Data Analyst
+Outils : SQL + Python + Power BI
    
-    Objectifs :
+Objectifs :
+       Comprendre où, quand et pourquoi les patients quittent l’étude
+       Identifier les profils à risque et les signaux d’alerte
+       Proposer des actions concrètes pour améliorer la rétention
 
-        Comprendre où, quand et pourquoi les patients quittent l’étude
-        Identifier les profils à risque et les signaux d’alerte
-        Proposer des actions concrètes pour améliorer la rétention
-
-    Résultats clés :
+Résultats clés :
         Identification des phases les plus critiques en termes d’abandon
         Mise en évidence de profils et comportements à haut risque
         Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
         Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
-📘 Executive Summary
+## 📘 Résumé
 
-Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de SQL, Python et Power BI pour comprendre et réduire les taux d’abandon des participants, un enjeu majeur en recherche clinique.
-
+Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants, un enjeu majeur en recherche clinique.
 J’ai construit un pipeline analytique de bout en bout :
 
-    extraction et structuration des données d’essais sous SQL,
-
-    exploration des comportements des participants et des patterns de dropout sous Python,
-
-    conception de dashboards Power BI pour suivre les indicateurs clés d’abandon.
+  extraction et structuration des données d’essais sous SQL,
+  exploration des comportements des participants et des patterns de dropout sous Python,
+  conception de dashboards Power BI pour suivre les indicateurs clés d’abandon.
 
 L’analyse a permis d’identifier des moments critiques dans le parcours, des profils à risque, ainsi que des variables d’engagement déterminantes. Sur cette base, j’ai formulé des recommandations opérationnelles et des pistes d’amélioration supportées par l’IA, pour aider les équipes cliniques à anticiper le risque de dropout et à optimiser le design et le pilotage des essais.
-🎯 Problème métier
+
+## 🎯 Problème métier
 
 Les essais cliniques sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont fortement pénalisés par les abandons de participants. Un taux de dropout élevé entraîne :
 
