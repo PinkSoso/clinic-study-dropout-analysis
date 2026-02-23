@@ -1,5 +1,5 @@
 # 🧪 Analyse du taux d'abandon au sein des essais cliniques
-Exploiter la data & l’IA pour réduire l’abandon des participants – Industrie de la santé
+Exploiter la data & l’IA pour réduire l’abandon des participants lors de tests cliniques – Industrie de la santé
 
 ## 📘 Résumé
 
