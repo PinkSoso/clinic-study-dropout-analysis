@@ -10,9 +10,7 @@ Rôle : Data Analyst
 Outils : SQL + Python + Power BI
    
 Objectifs :
-       Comprendre où, quand et pourquoi les patients quittent l’étude
-       Identifier les profils à risque et les signaux d’alerte
-       Proposer des actions concrètes pour améliorer la rétention
+       Comprendre où, quand et pourquoi les patients quittent l’étude, Identifier les profils à risque et les signaux d’alerte et proposer des actions concrètes pour améliorer la rétention.
 
 Résultats clés :
         Identification des phases les plus critiques en termes d’abandon
