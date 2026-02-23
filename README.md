@@ -4,7 +4,9 @@ Exploiter la data & l’IA pour réduire l’abandon des participants – Indust
 ## 📘 Préambule
 
 Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
+
 Rôle : Data Analyst
+
 Outils : SQL + Python + Power BI
    
 Objectifs :
