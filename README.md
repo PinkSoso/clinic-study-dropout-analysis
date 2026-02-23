@@ -4,7 +4,9 @@ Exploiter la data & l’IA pour réduire l’abandon des participants – Indust
 ## 📘 Préambule
 
 Problème métier : Pourquoi les patients abandonnent-ils les essais, et comment réduire ce taux de dropout ?
+
 Rôle : Data Analyst
+
 Outils : SQL + Python + Power BI
    
 Objectifs :
@@ -21,7 +23,7 @@ Résultats clés :
 ## 📘 Résumé
 
 Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants, un enjeu majeur en recherche clinique.
-J’ai construit un pipeline analytique de bout en bout :
+J’ai construit une pipeline analytique de bout en bout :
 
   extraction et structuration des données d’essais sous SQL,
   exploration des comportements des participants et des patterns de dropout sous Python,
