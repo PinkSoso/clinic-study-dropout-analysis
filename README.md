@@ -101,7 +101,7 @@ La compréhension de la problématique est hyper importante en tant que data Ana
 
    Le modèle prédictif (Random Forest) a permis d’analyser plus de 1 000 enregistrements d’essais cliniques pour identifier les facteurs influençant le dropout.
     
-   Le modèle atteint environ 70% de précision globale, avec de bonnes performances sur les participants non dropouts, mais une sensibilité faible (~4%) sur les cas de dropout, en raison d’un fort déséquilibre de classes et d’un signal limité côté abandon.
+   Le modèle atteint environ 73% de précision globale, avec de bonnes performances sur les participants non dropouts, mais une sensibilité faible (~26%) sur les cas de dropout, en raison d’un fort déséquilibre de classes et d’un signal limité côté abandon.
     <img width="469" height="437" alt="image" src="https://github.com/user-attachments/assets/205765d5-a12e-4839-bd3e-12f3ce6f0553" />
 
    Les analyses exploratoires montrent que des variables d’engagement (adhérence aux visites, fréquence des rendez-vous, certains indicateurs de santé et la phase de l’essai) sont parmi les prédicteurs les plus influents de la rétention.
