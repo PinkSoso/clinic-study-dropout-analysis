@@ -3,7 +3,7 @@ Exploiter la data & l’IA pour réduire l’abandon des participants lors de te
 
 ## 📘 Résumé
 
-Une équipe de recherche clinique faisait face à des abandons de patients qui menaçaient de retarder un essai critique ; j’ai utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout.
+Une équipe de recherche clinique faisait face à des abandons de patients qui menaçaient de retarder un essai critique ; j’ai utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout. Je vise ainsi à faire passer le dropout d’un aléa subi à un risque anticipé et maîtrisé grâce à l’exploitation des données.
 
 **Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?**                                                                                                      
 
