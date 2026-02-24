@@ -3,71 +3,72 @@ Exploiter la data & l’IA pour réduire l’abandon des participants lors de te
 
 ## 📘 Résumé
 
-Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?                                                                                                          
+**Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?**                                                                                                      
 Rôle : Data Analyst
 
-Outils :
+Outils & Compétences utilisées :                                                    
 *SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.      
 Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.                                                                                                                            
 Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.                                                   
-Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.*
+Soft skills : formulation de problématiques métier, vulgarisation des résultats & recommandations actionnables.*
    
 Objectifs :              
 - Comprendre où, quand et pourquoi les patients quittent l’étude en cours,
 - Identifier les profils à risque et les signaux d’alerte,                                               
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
-Résultats clés :
-        1. Identification des phases les plus critiques en termes d’abandon
-        2. Mise en évidence de profils et comportements à haut risque
-        3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout
+Résultats clés :                                                                                                                                                                                                                                       
+        1. Identification des phases les plus critiques en termes d’abandon                                                                         
+        2. Mise en évidence de profils et comportements à haut risque                                                      
+        3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout       
         4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
 
 ## 🔍 Explication du Projet
 
-Dans ce projet, j’ai analysé des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants en cours d'essais cliniques, un enjeu majeur en recherche en milieu clinique.
+Dans ce projet, j’ai analysée des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants en cours d'essais cliniques, un enjeu majeur en recherche en milieu clinique.
 Pour cela, j’ai construit une pipeline analytique de bout en bout :
 
-  Extraction et structuration des données d’essais sous *SQL*,
-  exploration des comportements des participants et des patterns de dropout sous *Python*,
-  conception de dashboards *Power BI* pour suivre les indicateurs clés d’abandon.
+  - Extraction et structuration des données d’essais sous *SQL*                                              
+  - Exploration des comportements des participants et des patterns de dropout sous *Python*,  
+  - Conception de dashboards *Power BI* pour suivre les indicateurs clés d’abandon.
 
 Mon analyse a alors permis d’identifier des moments critiques dans le parcours, des profils à risque, ainsi que des variables d’engagement déterminantes. Sur cette base, j’ai formulé des recommandations opérationnelles et des pistes d’amélioration supportées par l’IA, pour aider les équipes cliniques à anticiper le risque de dropout et à optimiser le design et le pilotage des essais.
 
 ## 🎯 Problème métier
 
-Grâce aux multiples échanges avec des experts, j'ai compris que les essais cliniques sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont également fortement pénalisés par les abandons de participants. Ma comprehension du problème m'amène a penser qu'un taux de dropout élevé entraîne :
+Grâce aux multiples échanges avec les experts cliniques, j'ai compris que les essais sont une étape essentielle dans le développement de nouveaux traitements, mais ils sont également fortement pénalisés par les abandons de participants. Ma comprehension du problème m'amène a penser qu'un taux de dropout élevé entraîne donc :
 
-des retards dans les calendriers d’étude,
-une augmentation des coûts opérationnels et de recrutement,
-une baisse de la puissance statistique et de la fiabilité des résultats,
-un accès plus lent aux traitements pour les patients.
+- des retards dans les calendriers d’étude,
+- une augmentation des coûts opérationnels et de recrutement,
+- une baisse de la puissance statistique et de la fiabilité des résultats,
+- un accès plus lent aux traitements pour les patients.
 
-L’objectif de mon projet ici est de soutenir les équipes de recherche clinique en utilisant mon expertise en data et IA pour :
+**L’objectif de mon projet ici est de soutenir les équipes de recherche clinique en utilisant mon expertise en data et IA afin de :**   
+**1. comprendre quand et pourquoi les participants abandonnent ?**
 
-   comprendre quand et pourquoi les participants abandonnent ?
-   détecter les signaux précoces d’un risque de dropout,
-   et enfin permettre des interventions proactives pour améliorer la rétention par la suite.
+**2. détecter les signaux précoces d’un risque de dropout
 
-Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un risque métier piloté et maitrisé grâce aux données.
+**3. et enfin permettre des interventions proactives pour améliorer la rétention par la suite.**
+
+**Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un risque métier piloté et maitrisé grâce aux données.**
 
 Cela m'amène donc à la refléxion suivante quant aux questions clés que je me suis posé en tant que Data Analyst concernant:
 
-   1 - La compréhension du dropout :
-        À quelles étapes du protocole les abandons sont-ils les plus fréquents ?
-        Quels sont les facteurs principaux (comportement, santé, design de l’essai) associés à ces abandons ?
+   **1 - La compréhension du dropout :**
+      *À quelles étapes du protocole les abandons sont-ils les plus fréquents ?
+      Quels sont les facteurs principaux (comportement, santé, design de l’essai) associés à ces abandons ?*
     
-   2- L'identification des profils à risque :
-        Quels profils démographiques ou comportementaux présentent des taux d’abandon plus élevés ?
-        Peut-on segmenter les participants en profils de risque pour mieux cibler les efforts de rétention ?
+   **2- L'identification des profils à risque :**
+      *Quels profils démographiques ou comportementaux présentent des taux d’abandon plus élevés ?
+      Peut-on segmenter les participants en profils de risque pour mieux cibler les efforts de rétention ?*
 
-   3 - La prédiction & la prévention :
-      Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
-      À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?
+   **3 - La prédiction & la prévention :**
+      *Peut-on utiliser des modèles prédictifs pour anticiper le risque de dropout en cours d’essai ?
+      À quel moment du parcours peut-on détecter ce risque suffisamment tôt pour agir ?*
 
-   4- Les interventions possible :
-      Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
-      Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?
+   **4- Les interventions possible :**
+      *Quelles actions (communication, suivi, ajustement du protocole, incitations) peuvent réduire le dropout ?
+      Comment les insights data peuvent-ils guider une allocation plus efficace des ressources et améliorer le taux de complétion des essais ?*
 
 ## 🧠 Mon Approche analytique & méthodologique
 🔄 Workflow du projet
