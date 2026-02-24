@@ -3,8 +3,9 @@ Exploiter la data & l’IA pour réduire l’abandon des participants lors de te
 
 ## 📘 Résumé
 
+Une équipe de recherche clinique faisait face à des abandons de patients qui menaçaient de retarder un essai critique ; j’ai utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout.
+
 **Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?**                                                                                                      
-Rôle : Data Analyst
 
 Outils & Compétences utilisées :                                                    
 *SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.      
@@ -44,13 +45,11 @@ Grâce aux multiples échanges avec les experts cliniques, j'ai compris que les 
 - un accès plus lent aux traitements pour les patients.
 
 **L’objectif de mon projet ici est de soutenir les équipes de recherche clinique en utilisant mon expertise en data et IA afin de :**   
-**1. comprendre quand et pourquoi les participants abandonnent ?**
-
-**2. détecter les signaux précoces d’un risque de dropout
-
+**1. comprendre quand et pourquoi les participants abandonnent ?**   
+**2. détecter les signaux précoces d’un risque de dropout**
 **3. et enfin permettre des interventions proactives pour améliorer la rétention par la suite.**
 
-**Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un risque métier piloté et maitrisé grâce aux données.**
+**Je cherche ainsi à transformer le dropout d’un risque subi et réactif en un risque piloté et maitrisé grâce aux données.**
 
 Cela m'amène donc à la refléxion suivante quant aux questions clés que je me suis posé en tant que Data Analyst concernant:
 
