@@ -6,16 +6,16 @@ Exploiter la data & l’IA pour réduire l’abandon des participants lors de te
 Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?                                                                                                          
 Rôle : Data Analyst
 
-Outils : 
-*SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.                                                                                                                                 
+Outils :
+*SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.      
 Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.                                                                                                                            
 Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.                                                   
 Soft skills : formulation de problématiques métier, vulgarisation des résultats, recommandations actionnables.*
    
-Objectifs :
-Comprendre où, quand et pourquoi les patients quittent l’étude en cours, 
-Identifier les profils à risque et les signaux d’alerte,
-proposer des actions concrètes pour améliorer la rétention.
+Objectifs :              
+- Comprendre où, quand et pourquoi les patients quittent l’étude en cours,
+- Identifier les profils à risque et les signaux d’alerte,                                               
+- Proposer des actions concrètes pour améliorer la rétention des patients.
 
 Résultats clés :
         1. Identification des phases les plus critiques en termes d’abandon
