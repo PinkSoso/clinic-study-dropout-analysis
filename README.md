@@ -73,14 +73,14 @@ Cela m'amène donc à la refléxion suivante quant aux questions clés que je me
 🔄 Workflow du projet
 
 La compréhension de la problématique est hyper importante en tant que data Analyst afin de ne pas s'égarer au cours de route et approvisionner les bons KPI par la suite. J'ai donc tout simplement definis avec les experts métiers ce qu'ils appellent un "abandons" dans leur jargon aun sein d'un contexte clinique et il s'avère que la définition est la suivante :
-  *"Tout participant qui ne va pas jusqu'au bout de l'essai clinique"*
+  *"Tout participant qui ne va pas jusqu'au bout de l'essai clinique"*.
 
   Une fois cette definition établis je peux ensuite passer aux étapes plus techniques :
   
-   - Extraction & de nettoyage (SQL) des données
+   - Extraction & nettoyage (SQL) des données
 
      Extraction de données à partir de plusieurs tables relationnelles (patients, visites, traitements, centres, événements).
-     Jointures, CTE, agrégations pour reconstruire un dataset patient-level.
+     Jointures, CTE, agrégations, Windows functions pour reconstruire un dataset patient propres.
      Gestion des valeurs manquantes, des statuts incohérents et des doublons pour fiabiliser les indicateurs.
 
    - Analyse exploratoire & modélisation (Python)
@@ -96,7 +96,7 @@ La compréhension de la problématique est hyper importante en tant que data Ana
 
 🧰 Compétences mobilisées
 
-*SQL : CTE, jointures, agrégations, nettoyage et préparation de données sur plusieurs tables.      
+*SQL : CTE, jointures, agrégations, Windows functions, nettoyage et préparation de données sur plusieurs tables.      
 Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.                                                                                                                            
 Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.                                                   
 Soft skills : formulation de problématiques métier, vulgarisation des résultats & recommandations actionnables.*
