@@ -3,7 +3,7 @@ Exploiter la data & l’IA pour réduire l’abandon des participants lors de te
 
 ## 📘 Résumé
 
-Une équipe de recherche clinique faisait face à des abandons de patients qui menaçaient de retarder un essai critique ; j’ai utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout. Je vise ainsi à faire passer le dropout d’un aléa subi à un risque anticipé et maîtrisé grâce à l’exploitation des données.
+Les équipes de recherche clinique font souvent face à des patients abandonnant leur essais cliniques en cours de route ce qui a une forte répercussion sur les résultats de ces essais. Pour comprendre la tendance et l'éviter j'ai donc  utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout de celle-ci. Je vise ainsi à faire passer le dropout d’un aléa subi à un risque anticipé et maîtrisé grâce à l’exploitation des donnée pour les équipes de recherche.
 
 **Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?**                                                                                                      
 
@@ -19,14 +19,14 @@ Objectifs :
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
 Résultats clés :                                                                                                                                                                                                                                       
-        1. Identification des phases les plus critiques en termes d’abandon                                                                         
-        2. Mise en évidence de profils et comportements à haut risque                                                      
+        1. Identification des phases les plus critiques en termes d’abandon =>                                                                         
+        2. Mise en évidence de profils et comportements à haut risque =>                                                     
         3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout       
-        4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais
+        4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais =>
 
 ## 🔍 Explication du Projet
 
-Dans ce projet, j’ai analysée des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants en cours d'essais cliniques, un enjeu majeur en recherche en milieu clinique.
+Dans ce projet, j’ai analysée des données d’essais cliniques à l’aide de **SQL, Python et Power BI** pour comprendre et réduire les taux d’abandon des participants en cours d'essais cliniques, un enjeu majeur dans la recherche en milieu clinique.
 Pour cela, j’ai construit une pipeline analytique de bout en bout :
 
   - Extraction et structuration des données d’essais sous *SQL*                                              
@@ -41,7 +41,7 @@ Grâce aux multiples échanges avec les experts cliniques, j'ai compris que les 
 
 - des retards dans les calendriers d’étude,
 - une augmentation des coûts opérationnels et de recrutement,
-- une baisse de la puissance statistique et de la fiabilité des résultats,
+- une baisse de la fiabilité des résultats,
 - un accès plus lent aux traitements pour les patients.
 
 **L’objectif de mon projet ici est de soutenir les équipes clinique en utilisant mon expertise en data et IA afin de :**   
