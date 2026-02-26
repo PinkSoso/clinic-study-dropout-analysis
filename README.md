@@ -18,11 +18,11 @@ Objectifs :
 - Identifier les profils à risque et les signaux d’alerte,                                               
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
-Résultats clés :                                                                                                                                                                                                                                       
-        1. Identification des phases les plus critiques en termes d’abandon =>                                                                         
-        2. Mise en évidence de profils et comportements à haut risque =>                                                     
-        3. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout       
-        4. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais =>
+Résultats clés :                                                                                                                                                                                                                      1. Nombre total de drop out => plus de 70%                 
+        2. Mise en évidence de profils et comportements à haut risque =>                                                                        
+        3. Identification des phases les plus critiques en termes d’abandon =>                                                    
+        4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout       
+        5. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais =>
 
 ## 🔍 Explication du Projet
 
