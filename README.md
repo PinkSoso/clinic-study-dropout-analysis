@@ -1,11 +1,6 @@
 # 🧪 Analyse du taux d'abandon au sein des essais cliniques
 Exploiter la data & l’IA pour réduire l’abandon des participants lors de tests cliniques – Industrie de la santé
-
-## 📘 Résumé
-
-Les équipes de recherche clinique font souvent face à des patients abandonnant leur essais cliniques en cours de route ce qui a une forte répercussion sur les résultats de ces essais. Pour comprendre la tendance et l'éviter j'ai donc  utilisé la data et l’IA pour comprendre pourquoi ils quittaient l’étude et comment les garder jusqu’au bout de celle-ci. Je vise ainsi à faire passer le dropout d’un aléa subi à un risque anticipé et maîtrisé grâce à l’exploitation des donnée pour les équipes de recherche.
-
-**Problème métier : Pourquoi les patients abandonnent-ils les essais en cours, et comment réduire ce taux de dropout ?**                                                                                                      
+                                                                                                      
 
 Outils & Compétences utilisées :                                                    
 *SQL : CTE, jointures, agrégations, windows functions, nettoyage et préparation de données sur plusieurs tables.      
