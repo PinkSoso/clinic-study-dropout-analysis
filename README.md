@@ -20,7 +20,7 @@ Objectifs :
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
 Résultats clés :                                                                                                                                                                                                                      1. Nombre total de drop out des patients dans l'essai => **60%**       
-        2. Mise en évidence de profils et comportements à haut risque => **Le genre masculin predomine à 51% avec des maladies Neurologique le chiffre monte à 80% de dropout**
+        2. Mise en évidence de profils et comportements à haut risque => **Le genre masculin predomine à 51% avec des maladies Neurologique le chiffre monte à 80% de dropout**                                               
         3. Identification des phases les plus critiques en termes d’abandon =>  **en phase X de l'essai clinique**                                                  
         4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout       
         5. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais =>
