@@ -19,7 +19,8 @@ Objectifs :
 - Anticiper le risque de dropout à l'avenir et                                              
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
-Résultats clés :          
+Résultats clés : 
+
         1. Taux de drop out sur 1000 patients dans l'essai => **26,20%**
    
         2. Mise en évidence de profils et comportements à haut risque => **Le genre masculin tranche d'âge 60 - 69 ans souffrant d'Asthme predomine à 66,67% de dropout en phase 2** 
