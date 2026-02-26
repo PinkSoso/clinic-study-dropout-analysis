@@ -20,11 +20,14 @@ Objectifs :
 - Proposer des actions concrètes pour améliorer la rétention des patients.
 
 Résultats clés :          
-        1. Taux de drop out sur 1000 patients dans l'essai => **26,20%**       
-        2. Mise en évidence de profils et comportements à haut risque => **Le genre masculin tranche d'âge 60 - 69 ans souffrant d'Asthme predomine à 66,67% de dropout en phase 2**                            
+        1. Taux de drop out sur 1000 patients dans l'essai => **26,20%**
+   
+        2. Mise en évidence de profils et comportements à haut risque => **Le genre masculin tranche d'âge 60 - 69 ans souffrant d'Asthme predomine à 66,67% de dropout en phase 2** 
+        
         3. Identification des phases les plus critiques en termes d’abandon =>  **26,69% en phase 1 de l'essai clinique concernant tous les partipants, prédominance sur les 20-49 ans avec 30,52% de drop out en Phase 1**             
-        4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout => **prédiction en fonction de l'adherence_scoring le genre féminin âgé de 20-29 ans sans souci de santé est plus a risque modéré de drop out à 80% en phase 3**   
-        5. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais =>
+        4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout => **prédiction en fonction de l'adherence_scoring le genre féminin âgé de 20-29 ans sans souci de santé est plus a risque modéré de drop out à 80% en phase 3** 
+        
+        5. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais => suivi infirmier/médecin, rappel 2 jours avant pour le RDV, coordination des RDV.
 
 ## 🔍 Explication du Projet
 
