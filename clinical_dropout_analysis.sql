@@ -5,6 +5,8 @@ SUM(CASE WHEN Dropout_Flag = 'Yes' THEN 1 ELSE 0 END) AS nb_dropout_participants
 ROUND(100*SUM(CASE WHEN Dropout_Flag = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),2) As Dropout_rate
 FROM clinical_dropout.`clinical_trial_dataset_1000(1)`;
 
+
+
 -- Gender and Disease Dropout Analysis --
 WITH ranked_dropout AS (
   SELECT
