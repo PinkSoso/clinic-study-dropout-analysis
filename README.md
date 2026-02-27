@@ -110,6 +110,7 @@ Soft skills : formulation de problématiques métier, vulgarisation des résulta
 
 🗂️ Résultats & recommandations métier
 
+Instauration du scoring de risque via SQL 
    Le modèle prédictif (Random Forest) a permis d’analyser plus de 1 000 enregistrements d’essais cliniques pour identifier les facteurs influençant le dropout.
     
    Le modèle atteint environ 73% de précision globale, avec de bonnes performances sur les participants non dropouts, mais une sensibilité faible (~26%) sur les cas de dropout, en raison d’un fort déséquilibre de classes et d’un signal limité côté abandon.
@@ -136,10 +137,6 @@ Soft skills : formulation de problématiques métier, vulgarisation des résulta
 
 📊 Next Steps
 
-   Améliorer la performance du modèle de prédiction en :
-
-   rééquilibrant les classes (oversampling/undersampling, class weights), enrichissant les variables de comportement et de contexte (communication, logistique, historique médical).
-   Intégrer le scoring de risque dans un outil opérationnel utilisé par les équipes terrain.
    Tester différentes stratégies d’intervention et mesurer leur impact sur la rétention dans le temps.
 
 
