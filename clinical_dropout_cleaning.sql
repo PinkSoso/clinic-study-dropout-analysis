@@ -12,7 +12,7 @@ notes,
 status,
 FROM mis602_ass2.appointment;
 
--- Identifier les NULLS/ Valeurs Manquantes/ Chaînes Vides/ Espace (OK)
+-- Identifier les NULLS/ Valeurs Manquantes
 SELECT
 COUNT(*) AS Total_rows,
 SUM(CASE WHEN appointment_id IS NULL THEN 1 ELSE 0 END) AS null_appointment_id,
@@ -23,15 +23,8 @@ SUM(CASE WHEN appointment_id IS NULL THEN 1 ELSE 0 END) AS null_appointment_id,
   SUM(CASE WHEN status IS NULL THEN 1 ELSE 0 END) AS null_status
   FROM mis602_ass2.appointment_clean;
 
--- Compter le nombre de ligne avec Espace ou des valeurs NULL dans la table 'appointment' colonne 'status'
-SELECT
-COUNT(*) AS total_rows,
-SUM(CASE 
-WHEN status IS NOT NULL AND (status = '' OR NULLIF(TRIM(status), '') IS NULL) THEN 1 ELSE 0 END) AS empty_only,
-SUM(CASE WHEN status IS NULL THEN 1 ELSE 0 END) AS Null_Value
-FROM mis602_ass2.appointment_clean;
 
--- Remplacer les valeurs NULLS de la table 'appointment' (OK)
+-- Remplacer les 47 valeurs NULLS de la table 'appointment_clean' (OK)
 SELECT
 status,
 COALESCE(status, 'unknown') AS clean_status,
@@ -42,7 +35,7 @@ COALESCE(patient_id, 0) AS clean_patient_id,
 COALESCE(appointment_id, 0) AS clean_appointment_id
 FROM mis602_ass2.appointment_clean;
 
--- Identifier dans la PK (appointment_id) de la table 'appointment' des doublons--
+-- Identifier dans la PK (appointment_id) de la table 'appointment_clean' des doublons (ok no duplicates)
 SELECT
 *
 FROM
@@ -64,7 +57,7 @@ phone_number,
 speciality_id,
 FROM mis602_ass2.doctor;
 
--- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'doctor' version CTE
+-- Identifier les Valeurs Nulles de la table 'doctor_clean' version CTE
 WITH clean_doctor_report AS (
 SELECT
 COUNT(*) AS Total_rows,
@@ -74,6 +67,7 @@ SUM(CASE WHEN doctor_id IS NULL THEN 1 ELSE 0 END) AS null_doctor_id,
   SUM(CASE WHEN speciality_id IS NULL THEN 1 ELSE 0 END) AS null_speciality_id
   FROM mis602_ass2.doctor_clean
   )
+  -- 1 nulle dans la colonne 'speciality_id' donc remplacment de la valeur nul par 0
 SELECT
 doctor_id,
 name,
@@ -82,17 +76,7 @@ speciality_id,
 COALESCE(speciality_id, 0) AS clean_speciality_id
 FROM mis602_ass2.doctor_clean;
 
--- Nettoyer la table Doctor et remplacer les valeurs NULLs par une valeur 'Unknown'
-SELECT 
-  *,
-  CASE 
-    WHEN status IS NULL OR status = '' OR NULLIF(TRIM(doctor_id), '') IS NULL 
-    THEN 'UNKNOWN'
-    ELSE UPPER(TRIM(speciality_id))
-  END AS clean_speciality_id
-  FROM doctor_clean;
-
--- Identifier les doublons de PK (doctor_id) de la table 'doctor' (ok no duplicates)
+-- Identifier les doublons de PK (doctor_id) de la table 'doctor_clean' (ok no duplicates)
 SELECT
 *
 FROM (
@@ -116,7 +100,7 @@ strength,
 description
 FROM mis602_ass2.medication;
 
--- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'medication' version CTE --
+-- Identifier les Valeurs Nulles de la table 'medication_clean' (ok no null values)
 SELECT
 COUNT(*) AS Total_rows,
 SUM(CASE WHEN medication_id IS NULL THEN 1 ELSE 0 END) AS null_medication_id,
@@ -127,7 +111,7 @@ SUM(CASE WHEN medication_id IS NULL THEN 1 ELSE 0 END) AS null_medication_id,
   SUM(CASE WHEN description IS NULL THEN 1 ELSE 0 END) AS null_description
   FROM mis602_ass2.medication_clean;
 
--- Identifier les doublon de PK (medication_id) de la table 'medication' (ok no duplicates)
+-- Identifier les doublon de PK (medication_id) de la table 'medication_clean' (ok no duplicates)
 SELECT
 *
 FROM (
@@ -153,13 +137,7 @@ address,
 state_code
 FROM mis602_ass2.patient;
 
--- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'patient' version CTE (ok no Null values)
-WITH clean_patient AS (
-SELECT
-COUNT(*) AS Total_rows,
-SUM(CASE WHEN patient_id IS NULL THEN 1 ELSE 0 END) AS null_patient_id
-FROM mis602_ass2.doctor_clean
-)
+-- Identifier les Valeurs Nulles de la table 'patient_id_clean' (ok no Null values)
 SELECT 
 *
 FROM patient
@@ -168,9 +146,9 @@ AND name IS NULL
 AND dob IS NULL
 AND gender IS NULL
 AND address IS NULL
-AND state_code IS NULL
+AND state_code IS NULL;
 
--- Identifier les doublons de PK (patient_id) de la table 'patient' (ok no duplicates)
+-- Identifier les doublons de PK (patient_id) de la table 'patient_id_clean' (ok no duplicates)
 SELECT
 *
 FROM (
@@ -191,14 +169,14 @@ appointment_id,
 medication_id
 FROM mis602_ass2.prescription;
 
--- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'prescription' (ok no null values)
+-- Identifier les Valeurs Nulles de la table 'prescription_clean' (ok no null values)
 SELECT *
 FROM mis602_ass2.prescription_clean
 WHERE prescription_id IS NULL
 AND appointment_id IS NULL
 AND medication_id IS NULL;
 
--- Identifier les doublons de PK (prescription_id) de la table 'prescription' (ok no duplicates)
+-- Identifier les doublons de PK (prescription_id) de la table 'prescription_clean' (ok no duplicates)
 SELECT
 *
 FROM (
@@ -217,13 +195,13 @@ speciality_id,
 name
 FROM mis602_ass2.speciality;
 
--- Table speciality (ok no NULL values)
+-- Identifier les Valeurs Nulles de la Table 'speciality_clean' (ok no NULL values)
 SELECT *
 FROM mis602_ass2.speciality_clean
 WHERE speciality_id IS NULL
 AND name IS NULL;
 
--- Identifier si doublon de PK (speciality_id) de la table 'speciality'
+-- Identifier si doublon de PK (speciality_id) de la table 'speciality_clean'
 SELECT 
 speciality_id,
 COUNT(speciality_id) AS Duplicates
