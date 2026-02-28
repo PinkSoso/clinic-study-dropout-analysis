@@ -24,7 +24,7 @@ COALESCE(appointment_id, 0) AS clean_appointment_id
 FROM mis602_ass2.appointment_clean;
 
 -- Table Doctor --
--- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'doctor' (CTE NE MARCHE PAS 1er pavé NON CONCLUANT)
+-- Identifier les Valeurs Nulles + Remplacer les valeurs NULLS de la table 'doctor' version CTE
 WITH clean_doctor_report AS (
 SELECT
 COUNT(*) AS Total_rows,
@@ -32,7 +32,7 @@ SUM(CASE WHEN doctor_id IS NULL THEN 1 ELSE 0 END) AS null_doctor_id,
   SUM(CASE WHEN name IS NULL THEN 1 ELSE 0 END) AS null_name,
   SUM(CASE WHEN phone_number IS NULL THEN 1 ELSE 0 END) AS null_phone_number,
   SUM(CASE WHEN speciality_id IS NULL THEN 1 ELSE 0 END) AS null_speciality_id
-  FROM doctor_clean
+  FROM mis602_ass2.doctor_clean
   )
 SELECT
 doctor_id,
@@ -40,7 +40,17 @@ name,
 phone_number,
 speciality_id,
 COALESCE(speciality_id, 0) AS clean_speciality_id
-FROM doctor_clean;
+FROM mis602_ass2.doctor_clean;
+
+-- Nettoyer la table Doctor et remplacer les valeurs NULLs par une valeur 'Unknown'
+SELECT 
+  *,
+  CASE 
+    WHEN status IS NULL OR status = '' OR NULLIF(TRIM(doctor_id), '') IS NULL 
+    THEN 'UNKNOWN'
+    ELSE UPPER(TRIM(speciality_id))
+  END AS clean_speciality_id
+  FROM doctor_clean;
 
 -- Table medication (ok aucun NULL trouvé)
 SELECT
@@ -51,14 +61,15 @@ SUM(CASE WHEN medication_id IS NULL THEN 1 ELSE 0 END) AS null_medication_id,
   SUM(CASE WHEN dosage_form IS NULL THEN 1 ELSE 0 END) AS null_dosage_form,
   SUM(CASE WHEN strength IS NULL THEN 1 ELSE 0 END) AS null_strength,
   SUM(CASE WHEN description IS NULL THEN 1 ELSE 0 END) AS null_description
-  FROM medication_clean;
+  FROM mis602_ass2.medication_clean;
 
--- Table patient (Next)
+-- Table patient
+WITH clean_patient AS (
 SELECT
 COUNT(*) AS Total_rows,
 SUM(CASE WHEN patient_id IS NULL THEN 1 ELSE 0 END) AS null_patient_id;
-
-
+FROM mis602_ass2.doctor_clean
+)
 SELECT 
 *
 FROM patient
@@ -68,21 +79,22 @@ AND dob IS NULL
 AND gender IS NULL
 AND address IS NULL
 AND state_code IS NULL;
+FROM mis602_ass2.patient_id_clean;
 
--- Table prescription
+-- Table prescription (ok aucun NULL trouvé)
 SELECT *
 FROM prescription
 WHERE prescription_id IS NULL
 AND appointment_id IS NULL
 AND medication_id IS NULL;
 
--- Table speciality
+-- Table speciality (ok aucun NULL trouvé)
 SELECT *
 FROM speciality
 WHERE speciality_id IS NULL
 AND name IS NULL;
 
--- Compter le nombre de ligne avec Espace ou des valeurs NULL dans la table 'appointment' colonne 'status' (OK)
+-- Compter le nombre de ligne avec Espace ou des valeurs NULL dans la table 'appointment' colonne 'status' (RAS)
 SELECT
 COUNT(*) AS total_rows,
 SUM(CASE 
@@ -137,16 +149,6 @@ speciality_id,
 name
 FROM mis602_ass2.speciality;
 
--- Nettoyer la table Doctor et remplacer les valeurs NULLs par une valeur 'Unknown'
-SELECT 
-  *,
-  CASE 
-    WHEN status IS NULL OR status = '' OR NULLIF(TRIM(doctor_id), '') IS NULL 
-    THEN 'UNKNOWN'
-    ELSE UPPER(TRIM(speciality_id))
-  END AS clean_speciality_id
-  FROM doctor_clean;
-
 -- Identifier dans la PK (appointment_id) de la table 'appointment' des doublons (ok no duplicates)
 SELECT
 *
@@ -158,7 +160,7 @@ FROM mis602_ass2.appointment_clean
 ) t 
 WHERE CheckPK > 1;
 
--- Identifier si doublon de PK (speciality_id) de la table 'speciality' (ok no duplicates)
+-- Identifier si doublon de PK (speciality_id) de la table 'speciality' (s)
 SELECT 
 speciality_id,
 COUNT(speciality_id) AS Duplicates
@@ -215,8 +217,6 @@ SELECT
 status,
 COALESCE(status, 'unknown') AS clean_status
 FROM mis602_ass2.appointment_clean;
-
--- Remplacer les valeurs NULLS de la table '' concernant la colonne '' (OK)
 
 -- PARTIE 2 : ANALYSE DES DATAS --
 
@@ -298,20 +298,3 @@ total_appointment_per_patient
 FROM patient_appointments_duplicates
 WHERE total_appointment_per_patient >= 2
 ORDER BY patient_id;
-
--- PARTIE 2: ANALYSE/ANALISIS--
-
-CREATE VIEW `mis602_ass2`.v_patient_last_status AS
-SELECT
-  a.patient_id,
-  MAX(a.appointment_date) AS last_appointment_date,
-  -- statut du dernier rendez-vous (window function)
-  SUBSTRING_INDEX(
-    SUBSTRING_INDEX(
-      GROUP_CONCAT(a.clean_status ORDER BY a.appointment_date DESC),
-      ',', 1
-    ),
-    ',', -1
-  ) AS last_clean_status
-FROM appointment_clean a
-GROUP BY a.patient_id;
