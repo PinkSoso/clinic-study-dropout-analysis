@@ -24,6 +24,8 @@ SUM(CASE WHEN appointment_id IS NULL THEN 1 ELSE 0 END) AS null_appointment_id,
   FROM mis602_ass2.appointment_clean;
 
 
+
+
 -- Remplacer les 47 valeurs NULLS de la table 'appointment_clean' (OK)
 SELECT
 status,
