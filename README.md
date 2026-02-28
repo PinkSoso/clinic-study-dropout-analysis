@@ -101,14 +101,14 @@ La compréhension de la problématique est hyper importante en tant que data Ana
      Construction d’un dashboard pour suivre les KPI de dropout : taux par phase, par centre, par segment, évolution temporelle.
      Mise à disposition d’une vue opérationnelle pour les équipes cliniques afin de monitorer la rétention et prioriser les actions.
 
-🧰 Compétences mobilisées
+## 🧰 Compétences mobilisées
 
 *SQL : CTE, jointures, agrégations, Windows functions, nettoyage et préparation de données sur plusieurs tables.      
 Power BI : DAX, colonnes calculées, ETL, modélisation de données, visualisation orientée décision.                                                                                                                            
 Python : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, statistiques descriptives et modélisation.                                                   
 Soft skills : formulation de problématiques métier, vulgarisation des résultats & recommandations actionnables.*
 
-🗂️ Résultats & recommandations métier
+## 🗂️ Résultats & recommandations métier
 
 Instauration du scoring de risque via SQL 
    Le modèle prédictif (Random Forest) a permis d’analyser plus de 1 000 enregistrements d’essais cliniques pour identifier les facteurs influençant le dropout.
@@ -121,7 +121,7 @@ Instauration du scoring de risque via SQL
 
    La distribution très déséquilibrée du dropout (majorité de participants restant dans l’essai) explique en partie la difficulté du modèle à bien capter les abandons, et ouvre des pistes d’amélioration (rééchantillonnage, features additionnelles).
 
-💡 Recommandations concrètes pour les équipes cliniques
+## 💡 Recommandations concrètes pour les équipes cliniques
 
    Détection précoce du risque
    Utiliser le modèle et les features d’adhérence pour flagger les participants à risque en amont et déclencher des actions ciblées (appels, rappels, accompagnement).
