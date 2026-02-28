@@ -1,11 +1,10 @@
--- Global participants dropout --
+-- PARTIE 2 / DROPOUT ANALYSIS
+-- Total Global participants dropout --
 SELECT 
 COUNT(*) AS Total_participants,
 SUM(CASE WHEN Dropout_Flag = 'Yes' THEN 1 ELSE 0 END) AS nb_dropout_participants, -- dropout = 1
 ROUND(100*SUM(CASE WHEN Dropout_Flag = 'Yes' THEN 1 ELSE 0 END) / COUNT(*),2) As Dropout_rate
 FROM clinical_dropout.`clinical_trial_dataset_1000(1)`;
-
-
 
 -- Gender and Disease Dropout Analysis --
 WITH ranked_dropout AS (
@@ -59,7 +58,7 @@ FROM ranked_dropout
 ORDER BY risk_rank
 LIMIT 5;
 
--- Dropout Phases Analysis 
+-- Dropout Phases Analysis (PHASE 1, PHASE 2 or PHASE 3)
 -- All participants --
 WITH ranked_phases_global AS (
   SELECT
@@ -119,7 +118,7 @@ FROM clinical_dropout.`clinical_trial_dataset_1000(1)`
 SELECT * FROM ranked_phases ORDER BY risk_rank
 LIMIT 7;
 
--- TOP 10 risks profils within adherence_score
+-- TOP 10 risks profils counting adherence_score
 WITH risk_with_adherence AS (
   SELECT 
     Gender,
@@ -144,7 +143,7 @@ SELECT
   Avg_historic_adherence,
   dropout_rate,
   CASE 
-    WHEN Avg_historic_adherence < 0.3 THEN '🚨 HYPER-RISQUE (mauvaise histoire)'
+    WHEN Avg_historic_adherence < 0.3 THEN '🚨 HYPER-RISQUE'
     WHEN Avg_historic_adherence < 0.6 THEN '⚠️  RISQUE ÉLEVÉ'
     ELSE '✅ RISQUE MODÉRÉ'
   END AS adherence_status
