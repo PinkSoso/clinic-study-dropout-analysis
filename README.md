@@ -21,13 +21,13 @@ Objectifs :
 
 Résultats clés : 
 
-        1. Taux de drop out sur 1000 patients dans l'essai => 26,20%
+        1. Taux de drop out sur 1000 patients dans l'essai => 26,20% total dropout
    
-        2. Mise en évidence de profils et comportements à haut risque => Le genre masculin tranche d'âge 60 - 69 ans souffrant d'Asthme predomine à 66,67% de dropout en phase 2** 
+        2. Identification de la phase la plus critique en termes d’abandon =>  26,69% en phase 1 de l'essai clinique concernant tous les partipants
         
-        3. Identification des phases les plus critiques en termes d’abandon =>  26,69% en phase 1 de l'essai clinique concernant tous les partipants, prédominance sur les 20-49 ans avec 30,52% de drop out en Phase 1             
+        3. Mise en évidence du profil et comportement à haut risque en phase 3 => Le genre féminin tranche d'âge 20 - 29 ans n'ayant aucune maladie predomine à 80% de dropout en phase 3, suivi des femmes ayant le cancer à 50% en phase 3 également
         
-        4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout => prédiction en fonction de l'adherence_scoring le genre féminin âgé de 20-29 ans sans souci de santé est plus a risque modéré de drop out à 80% en phase 3
+        4. Modèle prédictif (Random Forest, ~70% de précision) pour anticiper le risque de dropout => prédiction en fonction de l'adherence_scoring le genre féminin âgé de 20-29 ans sans souci de santé est plus a risque de drop out à 80% en phase 3
         
         5. Recommandations data-driven pour améliorer la rétention et la fiabilité des essais => suivi infirmier/médecin, rappel 2 jours avant pour le RDV, coordination des RDV.
 
