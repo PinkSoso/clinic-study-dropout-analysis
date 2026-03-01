@@ -23,7 +23,7 @@ SUM(CASE WHEN appointment_id IS NULL THEN 1 ELSE 0 END) AS null_appointment_id,
   SUM(CASE WHEN status IS NULL THEN 1 ELSE 0 END) AS null_status
   FROM mis602_ass2.appointment_clean;
 
-<https://github.com/PinkSoso/clinic-study-dropout-analysis/blob/069da21c276b5150bb6c30925be2979d58f0884c/SQL/Images/null_values_appointment_table.png>
+<img width="919" height="527" alt="image" src="https://github.com/PinkSoso/clinic-study-dropout-analysis/blob/069da21c276b5150bb6c30925be2979d58f0884c/SQL/Images/null_values_appointment_table.png" />
 
 
 -- Remplacer les 47 valeurs NULLS de la table 'appointment_clean' (OK)
